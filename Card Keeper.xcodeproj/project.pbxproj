@@ -15,6 +15,7 @@
 		D04B6134208DA40600D7090B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D04B6132208DA40600D7090B /* LaunchScreen.storyboard */; };
 		D04B613F208DA40600D7090B /* Card_KeeperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04B613E208DA40600D7090B /* Card_KeeperTests.swift */; };
 		D04B614A208DA40600D7090B /* Card_KeeperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04B6149208DA40600D7090B /* Card_KeeperUITests.swift */; };
+		D04B6158208DA6EF00D7090B /* CoreDataConnect.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04B6157208DA6EF00D7090B /* CoreDataConnect.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		D04B6145208DA40600D7090B /* Card KeeperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Card KeeperUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D04B6149208DA40600D7090B /* Card_KeeperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card_KeeperUITests.swift; sourceTree = "<group>"; };
 		D04B614B208DA40600D7090B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D04B6157208DA6EF00D7090B /* CoreDataConnect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataConnect.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				D04B6132208DA40600D7090B /* LaunchScreen.storyboard */,
 				D04B6135208DA40600D7090B /* Info.plist */,
 				D04B612D208DA40400D7090B /* Card_Keeper.xcdatamodeld */,
+				D04B6157208DA6EF00D7090B /* CoreDataConnect.swift */,
 			);
 			path = "Card Keeper";
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D04B6158208DA6EF00D7090B /* CoreDataConnect.swift in Sources */,
 				D04B6129208DA40400D7090B /* ViewController.swift in Sources */,
 				D04B612F208DA40400D7090B /* Card_Keeper.xcdatamodeld in Sources */,
 				D04B6127208DA40400D7090B /* AppDelegate.swift in Sources */,

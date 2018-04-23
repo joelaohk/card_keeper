@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D04B6127208DA40400D7090B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04B6126208DA40400D7090B /* AppDelegate.swift */; };
+		D04B6129208DA40400D7090B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04B6128208DA40400D7090B /* ViewController.swift */; };
+		D04B612C208DA40400D7090B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D04B612A208DA40400D7090B /* Main.storyboard */; };
+		D04B612F208DA40400D7090B /* Card_Keeper.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D04B612D208DA40400D7090B /* Card_Keeper.xcdatamodeld */; };
+		D04B6131208DA40600D7090B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D04B6130208DA40600D7090B /* Assets.xcassets */; };
+		D04B6134208DA40600D7090B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D04B6132208DA40600D7090B /* LaunchScreen.storyboard */; };
+		D04B613F208DA40600D7090B /* Card_KeeperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04B613E208DA40600D7090B /* Card_KeeperTests.swift */; };
+		D04B614A208DA40600D7090B /* Card_KeeperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04B6149208DA40600D7090B /* Card_KeeperUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D04B613B208DA40600D7090B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D04B611B208DA40300D7090B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D04B6122208DA40300D7090B;
+			remoteInfo = "Card Keeper";
+		};
+		D04B6146208DA40600D7090B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D04B611B208DA40300D7090B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D04B6122208DA40300D7090B;
+			remoteInfo = "Card Keeper";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D04B6123208DA40300D7090B /* Card Keeper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Card Keeper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D04B6126208DA40400D7090B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D04B6128208DA40400D7090B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D04B612B208DA40400D7090B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D04B612E208DA40400D7090B /* Card_Keeper.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Card_Keeper.xcdatamodel; sourceTree = "<group>"; };
+		D04B6130208DA40600D7090B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D04B6133208DA40600D7090B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D04B6135208DA40600D7090B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D04B613A208DA40600D7090B /* Card KeeperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Card KeeperTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D04B613E208DA40600D7090B /* Card_KeeperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card_KeeperTests.swift; sourceTree = "<group>"; };
+		D04B6140208DA40600D7090B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D04B6145208DA40600D7090B /* Card KeeperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Card KeeperUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D04B6149208DA40600D7090B /* Card_KeeperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card_KeeperUITests.swift; sourceTree = "<group>"; };
+		D04B614B208DA40600D7090B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D04B6120208DA40300D7090B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D04B6137208DA40600D7090B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D04B6142208DA40600D7090B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D04B611A208DA40300D7090B = {
+			isa = PBXGroup;
+			children = (
+				D04B6125208DA40300D7090B /* Card Keeper */,
+				D04B613D208DA40600D7090B /* Card KeeperTests */,
+				D04B6148208DA40600D7090B /* Card KeeperUITests */,
+				D04B6124208DA40300D7090B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D04B6124208DA40300D7090B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D04B6123208DA40300D7090B /* Card Keeper.app */,
+				D04B613A208DA40600D7090B /* Card KeeperTests.xctest */,
+				D04B6145208DA40600D7090B /* Card KeeperUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D04B6125208DA40300D7090B /* Card Keeper */ = {
+			isa = PBXGroup;
+			children = (
+				D04B6126208DA40400D7090B /* AppDelegate.swift */,
+				D04B6128208DA40400D7090B /* ViewController.swift */,
+				D04B612A208DA40400D7090B /* Main.storyboard */,
+				D04B6130208DA40600D7090B /* Assets.xcassets */,
+				D04B6132208DA40600D7090B /* LaunchScreen.storyboard */,
+				D04B6135208DA40600D7090B /* Info.plist */,
+				D04B612D208DA40400D7090B /* Card_Keeper.xcdatamodeld */,
+			);
+			path = "Card Keeper";
+			sourceTree = "<group>";
+		};
+		D04B613D208DA40600D7090B /* Card KeeperTests */ = {
+			isa = PBXGroup;
+			children = (
+				D04B613E208DA40600D7090B /* Card_KeeperTests.swift */,
+				D04B6140208DA40600D7090B /* Info.plist */,
+			);
+			path = "Card KeeperTests";
+			sourceTree = "<group>";
+		};
+		D04B6148208DA40600D7090B /* Card KeeperUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D04B6149208DA40600D7090B /* Card_KeeperUITests.swift */,
+				D04B614B208DA40600D7090B /* Info.plist */,
+			);
+			path = "Card KeeperUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D04B6122208DA40300D7090B /* Card Keeper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D04B614E208DA40600D7090B /* Build configuration list for PBXNativeTarget "Card Keeper" */;
+			buildPhases = (
+				D04B611F208DA40300D7090B /* Sources */,
+				D04B6120208DA40300D7090B /* Frameworks */,
+				D04B6121208DA40300D7090B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Card Keeper";
+			productName = "Card Keeper";
+			productReference = D04B6123208DA40300D7090B /* Card Keeper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D04B6139208DA40600D7090B /* Card KeeperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D04B6151208DA40600D7090B /* Build configuration list for PBXNativeTarget "Card KeeperTests" */;
+			buildPhases = (
+				D04B6136208DA40600D7090B /* Sources */,
+				D04B6137208DA40600D7090B /* Frameworks */,
+				D04B6138208DA40600D7090B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D04B613C208DA40600D7090B /* PBXTargetDependency */,
+			);
+			name = "Card KeeperTests";
+			productName = "Card KeeperTests";
+			productReference = D04B613A208DA40600D7090B /* Card KeeperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D04B6144208DA40600D7090B /* Card KeeperUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D04B6154208DA40600D7090B /* Build configuration list for PBXNativeTarget "Card KeeperUITests" */;
+			buildPhases = (
+				D04B6141208DA40600D7090B /* Sources */,
+				D04B6142208DA40600D7090B /* Frameworks */,
+				D04B6143208DA40600D7090B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D04B6147208DA40600D7090B /* PBXTargetDependency */,
+			);
+			name = "Card KeeperUITests";
+			productName = "Card KeeperUITests";
+			productReference = D04B6145208DA40600D7090B /* Card KeeperUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D04B611B208DA40300D7090B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Joe Lao";
+				TargetAttributes = {
+					D04B6122208DA40300D7090B = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					D04B6139208DA40600D7090B = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = D04B6122208DA40300D7090B;
+					};
+					D04B6144208DA40600D7090B = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = D04B6122208DA40300D7090B;
+					};
+				};
+			};
+			buildConfigurationList = D04B611E208DA40300D7090B /* Build configuration list for PBXProject "Card Keeper" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D04B611A208DA40300D7090B;
+			productRefGroup = D04B6124208DA40300D7090B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D04B6122208DA40300D7090B /* Card Keeper */,
+				D04B6139208DA40600D7090B /* Card KeeperTests */,
+				D04B6144208DA40600D7090B /* Card KeeperUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D04B6121208DA40300D7090B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D04B6134208DA40600D7090B /* LaunchScreen.storyboard in Resources */,
+				D04B6131208DA40600D7090B /* Assets.xcassets in Resources */,
+				D04B612C208DA40400D7090B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D04B6138208DA40600D7090B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D04B6143208DA40600D7090B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D04B611F208DA40300D7090B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D04B6129208DA40400D7090B /* ViewController.swift in Sources */,
+				D04B612F208DA40400D7090B /* Card_Keeper.xcdatamodeld in Sources */,
+				D04B6127208DA40400D7090B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D04B6136208DA40600D7090B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D04B613F208DA40600D7090B /* Card_KeeperTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D04B6141208DA40600D7090B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D04B614A208DA40600D7090B /* Card_KeeperUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D04B613C208DA40600D7090B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D04B6122208DA40300D7090B /* Card Keeper */;
+			targetProxy = D04B613B208DA40600D7090B /* PBXContainerItemProxy */;
+		};
+		D04B6147208DA40600D7090B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D04B6122208DA40300D7090B /* Card Keeper */;
+			targetProxy = D04B6146208DA40600D7090B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D04B612A208DA40400D7090B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D04B612B208DA40400D7090B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D04B6132208DA40600D7090B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D04B6133208DA40600D7090B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D04B614C208DA40600D7090B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D04B614D208DA40600D7090B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D04B614F208DA40600D7090B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 97Z8NJMV38;
+				INFOPLIST_FILE = "Card Keeper/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "hk.edu.cityu.Card-Keeper";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D04B6150208DA40600D7090B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 97Z8NJMV38;
+				INFOPLIST_FILE = "Card Keeper/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "hk.edu.cityu.Card-Keeper";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D04B6152208DA40600D7090B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 97Z8NJMV38;
+				INFOPLIST_FILE = "Card KeeperTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "hk.edu.cityu.Card-KeeperTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Card Keeper.app/Card Keeper";
+			};
+			name = Debug;
+		};
+		D04B6153208DA40600D7090B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 97Z8NJMV38;
+				INFOPLIST_FILE = "Card KeeperTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "hk.edu.cityu.Card-KeeperTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Card Keeper.app/Card Keeper";
+			};
+			name = Release;
+		};
+		D04B6155208DA40600D7090B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 97Z8NJMV38;
+				INFOPLIST_FILE = "Card KeeperUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "hk.edu.cityu.Card-KeeperUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Card Keeper";
+			};
+			name = Debug;
+		};
+		D04B6156208DA40600D7090B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 97Z8NJMV38;
+				INFOPLIST_FILE = "Card KeeperUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "hk.edu.cityu.Card-KeeperUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Card Keeper";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D04B611E208DA40300D7090B /* Build configuration list for PBXProject "Card Keeper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D04B614C208DA40600D7090B /* Debug */,
+				D04B614D208DA40600D7090B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D04B614E208DA40600D7090B /* Build configuration list for PBXNativeTarget "Card Keeper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D04B614F208DA40600D7090B /* Debug */,
+				D04B6150208DA40600D7090B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D04B6151208DA40600D7090B /* Build configuration list for PBXNativeTarget "Card KeeperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D04B6152208DA40600D7090B /* Debug */,
+				D04B6153208DA40600D7090B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D04B6154208DA40600D7090B /* Build configuration list for PBXNativeTarget "Card KeeperUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D04B6155208DA40600D7090B /* Debug */,
+				D04B6156208DA40600D7090B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D04B612D208DA40400D7090B /* Card_Keeper.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D04B612E208DA40400D7090B /* Card_Keeper.xcdatamodel */,
+			);
+			currentVersion = D04B612E208DA40400D7090B /* Card_Keeper.xcdatamodel */;
+			path = Card_Keeper.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D04B611B208DA40300D7090B /* Project object */;
+}

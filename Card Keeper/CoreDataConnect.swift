@@ -38,6 +38,17 @@ class CoreDataConnect {
         return false
     }
     
+    func retrieveCards() -> [Card] {
+        let request = NSFetchRequest<NSFetchRequestResult>(entityName: self.entityName)
+        do {
+            let results = try context.fetch(request) as! [Card]
+            return results
+        } catch {
+            fatalError("Cannot retrieve card")
+        }
+        return []
+    }
+    
     func deleteCard(cardID:UUID) -> Bool {
         let request = NSFetchRequest<NSFetchRequestResult>(entityName: self.entityName)
         request.predicate = NSPredicate(format: "id = \(cardID)")

@@ -7,9 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C1FA7A2D4EC0D861146696E4 /* Pods_Card_Keeper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D9F422ECCFFB3EAB1E88221 /* Pods_Card_Keeper.framework */; };
+		D0464DBB208F425600EE0AC0 /* Former.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0464DBA208F425600EE0AC0 /* Former.framework */; };
+		D0464DBF208F4F7700EE0AC0 /* AddCardController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0464DBE208F4F7700EE0AC0 /* AddCardController.swift */; };
+		D0464DC1208F95D700EE0AC0 /* CardDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0464DC0208F95D700EE0AC0 /* CardDetailViewController.swift */; };
 		D04B6127208DA40400D7090B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04B6126208DA40400D7090B /* AppDelegate.swift */; };
 		D04B6129208DA40400D7090B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04B6128208DA40400D7090B /* ViewController.swift */; };
-		D04B612C208DA40400D7090B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D04B612A208DA40400D7090B /* Main.storyboard */; };
+		D04B612C208DA40400D7090B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D04B612A208DA40400D7090B /* Main.storyboard */; settings = {ASSET_TAGS = (1, ); }; };
 		D04B612F208DA40400D7090B /* Card_Keeper.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D04B612D208DA40400D7090B /* Card_Keeper.xcdatamodeld */; };
 		D04B6131208DA40600D7090B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D04B6130208DA40600D7090B /* Assets.xcassets */; };
 		D04B6134208DA40600D7090B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D04B6132208DA40600D7090B /* LaunchScreen.storyboard */; };
@@ -36,6 +40,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0D9F422ECCFFB3EAB1E88221 /* Pods_Card_Keeper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Card_Keeper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0464DBA208F425600EE0AC0 /* Former.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Former.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0464DBC208F425600EE0AC0 /* RSBarcodes_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RSBarcodes_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0464DBE208F4F7700EE0AC0 /* AddCardController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCardController.swift; sourceTree = "<group>"; };
+		D0464DC0208F95D700EE0AC0 /* CardDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardDetailViewController.swift; sourceTree = "<group>"; };
 		D04B6123208DA40300D7090B /* Card Keeper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Card Keeper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D04B6126208DA40400D7090B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D04B6128208DA40400D7090B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -51,6 +60,8 @@
 		D04B6149208DA40600D7090B /* Card_KeeperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card_KeeperUITests.swift; sourceTree = "<group>"; };
 		D04B614B208DA40600D7090B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D04B6157208DA6EF00D7090B /* CoreDataConnect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataConnect.swift; sourceTree = "<group>"; };
+		D7F230E6CA3132F14346EF6F /* Pods-Card Keeper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Card Keeper.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Card Keeper/Pods-Card Keeper.debug.xcconfig"; sourceTree = "<group>"; };
+		F40DA9D11B48CED49155B05F /* Pods-Card Keeper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Card Keeper.release.xcconfig"; path = "Pods/Target Support Files/Pods-Card Keeper/Pods-Card Keeper.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +69,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0464DBB208F425600EE0AC0 /* Former.framework in Frameworks */,
+				C1FA7A2D4EC0D861146696E4 /* Pods_Card_Keeper.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +91,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		03C233888EEEA55BEF457175 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D7F230E6CA3132F14346EF6F /* Pods-Card Keeper.debug.xcconfig */,
+				F40DA9D11B48CED49155B05F /* Pods-Card Keeper.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9DDB138B86099B394053E682 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D0464DBA208F425600EE0AC0 /* Former.framework */,
+				D0464DBC208F425600EE0AC0 /* RSBarcodes_Swift.framework */,
+				0D9F422ECCFFB3EAB1E88221 /* Pods_Card_Keeper.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D04B611A208DA40300D7090B = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +117,8 @@
 				D04B613D208DA40600D7090B /* Card KeeperTests */,
 				D04B6148208DA40600D7090B /* Card KeeperUITests */,
 				D04B6124208DA40300D7090B /* Products */,
+				9DDB138B86099B394053E682 /* Frameworks */,
+				03C233888EEEA55BEF457175 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,11 +138,13 @@
 				D04B6126208DA40400D7090B /* AppDelegate.swift */,
 				D04B6128208DA40400D7090B /* ViewController.swift */,
 				D04B612A208DA40400D7090B /* Main.storyboard */,
+				D0464DC0208F95D700EE0AC0 /* CardDetailViewController.swift */,
 				D04B6130208DA40600D7090B /* Assets.xcassets */,
 				D04B6132208DA40600D7090B /* LaunchScreen.storyboard */,
 				D04B6135208DA40600D7090B /* Info.plist */,
 				D04B612D208DA40400D7090B /* Card_Keeper.xcdatamodeld */,
 				D04B6157208DA6EF00D7090B /* CoreDataConnect.swift */,
+				D0464DBE208F4F7700EE0AC0 /* AddCardController.swift */,
 			);
 			path = "Card Keeper";
 			sourceTree = "<group>";
@@ -138,9 +174,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D04B614E208DA40600D7090B /* Build configuration list for PBXNativeTarget "Card Keeper" */;
 			buildPhases = (
+				A0C6D2D8195F2C2843037FE6 /* [CP] Check Pods Manifest.lock */,
 				D04B611F208DA40300D7090B /* Sources */,
 				D04B6120208DA40300D7090B /* Frameworks */,
 				D04B6121208DA40300D7090B /* Resources */,
+				18C39C911CBBD890DBC14FE3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -193,6 +231,10 @@
 		D04B611B208DA40300D7090B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					1,
+					cardImage,
+				);
 				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = "Joe Lao";
@@ -257,15 +299,56 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		18C39C911CBBD890DBC14FE3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Card Keeper/Pods-Card Keeper-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Former/Former.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Former.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Card Keeper/Pods-Card Keeper-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A0C6D2D8195F2C2843037FE6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Card Keeper-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D04B611F208DA40300D7090B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				D04B6158208DA6EF00D7090B /* CoreDataConnect.swift in Sources */,
+				D0464DC1208F95D700EE0AC0 /* CardDetailViewController.swift in Sources */,
 				D04B6129208DA40400D7090B /* ViewController.swift in Sources */,
 				D04B612F208DA40400D7090B /* Card_Keeper.xcdatamodeld in Sources */,
 				D04B6127208DA40400D7090B /* AppDelegate.swift in Sources */,
+				D0464DBF208F4F7700EE0AC0 /* AddCardController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,7 +519,9 @@
 		};
 		D04B614F208DA40600D7090B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7F230E6CA3132F14346EF6F /* Pods-Card Keeper.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 97Z8NJMV38;
@@ -454,7 +539,9 @@
 		};
 		D04B6150208DA40600D7090B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F40DA9D11B48CED49155B05F /* Pods-Card Keeper.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 97Z8NJMV38;

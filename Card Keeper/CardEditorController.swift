@@ -2,20 +2,21 @@
 //  AddCardController.swift
 //  Card Keeper
 //
-//  Created by Joe Lao on 25/4/2018.
+//  Created by Joe Lao on 24/4/2018.
 //  Copyright © 2018 Joe Lao. All rights reserved.
 //
 
 import UIKit
+import Former
 
-class AddCardController: UIViewController {
-
+class CardEditorController: FormViewController {
+    
+    var editCard: Card!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        let editorView = CardEditor()
-        editorView.contentMode = UIViewContentMode.scaleAspectFit
-        self.view.addSubview(editorView)
-
+        
+        
         // Do any additional setup after loading the view.
     }
 

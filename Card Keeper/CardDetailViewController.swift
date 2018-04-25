@@ -10,7 +10,7 @@ import UIKit
 
 class CardDetailViewController: ViewController {
     
-    var selectedCard: Card?
+    var selectedCard: Card!
     
     override func viewDidLoad() {
         super.viewDidLoad()

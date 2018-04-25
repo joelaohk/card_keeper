@@ -39,7 +39,7 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         let mainStoryboard = UIStoryboard(name: "Main", bundle: nil)
-        let detailCardVC = mainStoryboard.instantiateViewController(withIdentifier: "addCard") as! CardDetailViewController
+        let detailCardVC = mainStoryboard.instantiateViewController(withIdentifier: "CardDetail") as! CardDetailViewController
         detailCardVC.selectedCard = allCards[indexPath.row]
         self.navigationController?.pushViewController(detailCardVC, animated: true)
     }

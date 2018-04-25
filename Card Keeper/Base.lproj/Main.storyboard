@@ -47,7 +47,7 @@
                                         </view>
                                         <size key="customSize" width="166" height="105"/>
                                         <connections>
-                                            <segue destination="lnj-yQ-8O1" kind="showDetail" id="Xdz-jO-f8F"/>
+                                            <segue destination="lnj-yQ-8O1" kind="show" id="Xdz-jO-f8F"/>
                                         </connections>
                                     </collectionViewCell>
                                 </cells>
@@ -60,7 +60,13 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="BRb-ZC-RC1"/>
                     </view>
-                    <navigationItem key="navigationItem" title="My Card" id="d0r-gF-3Dd"/>
+                    <navigationItem key="navigationItem" title="My Card" id="d0r-gF-3Dd">
+                        <barButtonItem key="rightBarButtonItem" title="Add" id="3sr-yF-htn">
+                            <connections>
+                                <segue destination="WKS-W4-DeY" kind="showDetail" id="mn8-PS-Aau"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="udL-Au-Anq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -92,19 +98,43 @@
                         <viewLayoutGuide key="safeArea" id="E0M-6f-ssw"/>
                     </view>
                     <navigationItem key="navigationItem" title="Add Card" id="cOQ-L0-bcV">
-                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="Dgv-I7-KeX"/>
+                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="Dgv-I7-KeX">
+                            <connections>
+                                <action selector="goBack:" destination="e1G-Aj-Cyu" id="Eh7-Cf-ims"/>
+                            </connections>
+                        </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" title="Add" id="cmi-un-FsJ"/>
                     </navigationItem>
+                    <connections>
+                        <segue destination="4DN-yb-I87" kind="unwind" identifier="unwindToMain" unwindAction="unwindToMainWithSegue:" id="kfa-vp-sTO"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3wn-QV-agr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="4DN-yb-I87" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="1263" y="1146"/>
+            <point key="canvasLocation" x="2551.1999999999998" y="1135.6821589205399"/>
+        </scene>
+        <!--Profile-->
+        <scene sceneID="I8f-lU-Pcn">
+            <objects>
+                <viewController id="5rQ-Fu-a3q" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="q4g-R5-8Lp">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="Kuu-Qj-MGM"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Profile" image="profile" id="HnB-cA-rDa"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kdv-qe-nlw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="476" y="-302"/>
         </scene>
         <!--Home-->
         <scene sceneID="lM6-Ze-9i9">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="i6D-2A-9U0" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Home" id="dLn-bI-Yuk"/>
+                    <tabBarItem key="tabBarItem" title="Home" image="home" id="dLn-bI-Yuk"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="jDl-Qs-iGy">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
@@ -125,36 +155,40 @@
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="xSw-H8-Se5" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="nbn-N0-5Ua">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
                     <connections>
                         <segue destination="i6D-2A-9U0" kind="relationship" relationship="viewControllers" id="ouL-yK-zwf"/>
-                        <segue destination="rqq-A5-FHL" kind="relationship" relationship="viewControllers" id="zhP-FM-lgP"/>
+                        <segue destination="5rQ-Fu-a3q" kind="relationship" relationship="viewControllers" id="B3d-8p-N6G"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZTr-ku-sBJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-204" y="368.36581709145429"/>
         </scene>
-        <!--Add-->
-        <scene sceneID="1bn-fO-TxT">
+        <!--Navigation Controller-->
+        <scene sceneID="iQX-wP-tqq">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="rqq-A5-FHL" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Add" id="PaF-VP-6zC"/>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="WKS-W4-DeY" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="7Tc-Lf-Yhw">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="foH-qs-yYG">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="e1G-Aj-Cyu" kind="relationship" relationship="rootViewController" id="qnZ-xf-nze"/>
+                        <segue destination="e1G-Aj-Cyu" kind="relationship" relationship="rootViewController" id="voR-kq-wEb"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="liq-Ky-Vdc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nFi-GD-qUu" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="309.60000000000002" y="1145.577211394303"/>
+            <point key="canvasLocation" x="1612" y="1135.6821589205399"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="home" width="50" height="50"/>
+        <image name="profile" width="26" height="26"/>
+    </resources>
 </document>

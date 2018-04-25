@@ -10,12 +10,16 @@ import UIKit
 
 class AddCardController: UIViewController {
 
+    
+    @IBAction func goBack(_ sender: Any) {
+        performSegue(withIdentifier: "unwindToMain", sender: self)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        let editorView = CardEditor()
+        let editorView = CardEditorTableView()
         editorView.contentMode = UIViewContentMode.scaleAspectFit
         self.view.addSubview(editorView)
-
         // Do any additional setup after loading the view.
     }
 

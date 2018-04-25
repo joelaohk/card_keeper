@@ -17,6 +17,8 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
     var appDelegate: AppDelegate!
     var context: NSManagedObjectContext!
     
+    @IBAction func unwindToMain(segue:UIStoryboardSegue) { }
+    
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         if let cards = allCards {
             return cards.count

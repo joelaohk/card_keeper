@@ -9,7 +9,7 @@
 import UIKit
 import Former
 
-class CardEditorController: FormViewController {
+class EditCardController: FormViewController {
     
     var editCard: Card!
     

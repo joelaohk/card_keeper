@@ -8,8 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		C1FA7A2D4EC0D861146696E4 /* Pods_Card_Keeper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D9F422ECCFFB3EAB1E88221 /* Pods_Card_Keeper.framework */; };
+		D042DBF72090B5180093B531 /* CardFaceCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D042DBF62090B5180093B531 /* CardFaceCell.xib */; };
+		D042DBFB2090C4AA0093B531 /* CardImageHolderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D042DBFA2090C4AA0093B531 /* CardImageHolderCell.swift */; };
+		D042DBFE2090DF310093B531 /* CardEditorTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D042DBFD2090DF310093B531 /* CardEditorTableView.swift */; };
 		D0464DBB208F425600EE0AC0 /* Former.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0464DBA208F425600EE0AC0 /* Former.framework */; };
-		D0464DBF208F4F7700EE0AC0 /* CardEditorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0464DBE208F4F7700EE0AC0 /* CardEditorController.swift */; };
+		D0464DBF208F4F7700EE0AC0 /* EditCardController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0464DBE208F4F7700EE0AC0 /* EditCardController.swift */; };
 		D0464DC1208F95D700EE0AC0 /* CardDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0464DC0208F95D700EE0AC0 /* CardDetailViewController.swift */; };
 		D04B6127208DA40400D7090B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04B6126208DA40400D7090B /* AppDelegate.swift */; };
 		D04B6129208DA40400D7090B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04B6128208DA40400D7090B /* ViewController.swift */; };
@@ -22,7 +25,6 @@
 		D04B6158208DA6EF00D7090B /* CoreDataConnect.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04B6157208DA6EF00D7090B /* CoreDataConnect.swift */; };
 		D051069B20903F11007578DE /* CardEditorView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D051069A20903F11007578DE /* CardEditorView.xib */; };
 		D051069D20904128007578DE /* AddCardController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D051069C20904128007578DE /* AddCardController.swift */; };
-		D051069F2090450D007578DE /* CardEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D051069E2090450D007578DE /* CardEditor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,9 +46,12 @@
 
 /* Begin PBXFileReference section */
 		0D9F422ECCFFB3EAB1E88221 /* Pods_Card_Keeper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Card_Keeper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D042DBF62090B5180093B531 /* CardFaceCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CardFaceCell.xib; sourceTree = "<group>"; };
+		D042DBFA2090C4AA0093B531 /* CardImageHolderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardImageHolderCell.swift; sourceTree = "<group>"; };
+		D042DBFD2090DF310093B531 /* CardEditorTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardEditorTableView.swift; sourceTree = "<group>"; };
 		D0464DBA208F425600EE0AC0 /* Former.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Former.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0464DBC208F425600EE0AC0 /* RSBarcodes_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RSBarcodes_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D0464DBE208F4F7700EE0AC0 /* CardEditorController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardEditorController.swift; sourceTree = "<group>"; };
+		D0464DBE208F4F7700EE0AC0 /* EditCardController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditCardController.swift; sourceTree = "<group>"; };
 		D0464DC0208F95D700EE0AC0 /* CardDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardDetailViewController.swift; sourceTree = "<group>"; };
 		D04B6123208DA40300D7090B /* Card Keeper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Card Keeper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D04B6126208DA40400D7090B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -65,7 +70,6 @@
 		D04B6157208DA6EF00D7090B /* CoreDataConnect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataConnect.swift; sourceTree = "<group>"; };
 		D051069A20903F11007578DE /* CardEditorView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CardEditorView.xib; sourceTree = "<group>"; };
 		D051069C20904128007578DE /* AddCardController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCardController.swift; sourceTree = "<group>"; };
-		D051069E2090450D007578DE /* CardEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardEditor.swift; sourceTree = "<group>"; };
 		D7F230E6CA3132F14346EF6F /* Pods-Card Keeper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Card Keeper.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Card Keeper/Pods-Card Keeper.debug.xcconfig"; sourceTree = "<group>"; };
 		F40DA9D11B48CED49155B05F /* Pods-Card Keeper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Card Keeper.release.xcconfig"; path = "Pods/Target Support Files/Pods-Card Keeper/Pods-Card Keeper.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -146,14 +150,16 @@
 				D04B612A208DA40400D7090B /* Main.storyboard */,
 				D051069C20904128007578DE /* AddCardController.swift */,
 				D051069A20903F11007578DE /* CardEditorView.xib */,
-				D051069E2090450D007578DE /* CardEditor.swift */,
+				D042DBFD2090DF310093B531 /* CardEditorTableView.swift */,
+				D042DBF62090B5180093B531 /* CardFaceCell.xib */,
+				D042DBFA2090C4AA0093B531 /* CardImageHolderCell.swift */,
 				D0464DC0208F95D700EE0AC0 /* CardDetailViewController.swift */,
 				D04B6130208DA40600D7090B /* Assets.xcassets */,
 				D04B6132208DA40600D7090B /* LaunchScreen.storyboard */,
 				D04B6135208DA40600D7090B /* Info.plist */,
 				D04B612D208DA40400D7090B /* Card_Keeper.xcdatamodeld */,
 				D04B6157208DA6EF00D7090B /* CoreDataConnect.swift */,
-				D0464DBE208F4F7700EE0AC0 /* CardEditorController.swift */,
+				D0464DBE208F4F7700EE0AC0 /* EditCardController.swift */,
 			);
 			path = "Card Keeper";
 			sourceTree = "<group>";
@@ -286,6 +292,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D042DBF72090B5180093B531 /* CardFaceCell.xib in Resources */,
 				D04B6134208DA40600D7090B /* LaunchScreen.storyboard in Resources */,
 				D04B6131208DA40600D7090B /* Assets.xcassets in Resources */,
 				D04B612C208DA40400D7090B /* Main.storyboard in Resources */,
@@ -355,12 +362,13 @@
 			files = (
 				D04B6158208DA6EF00D7090B /* CoreDataConnect.swift in Sources */,
 				D0464DC1208F95D700EE0AC0 /* CardDetailViewController.swift in Sources */,
+				D042DBFB2090C4AA0093B531 /* CardImageHolderCell.swift in Sources */,
 				D04B6129208DA40400D7090B /* ViewController.swift in Sources */,
 				D04B612F208DA40400D7090B /* Card_Keeper.xcdatamodeld in Sources */,
-				D051069F2090450D007578DE /* CardEditor.swift in Sources */,
+				D042DBFE2090DF310093B531 /* CardEditorTableView.swift in Sources */,
 				D051069D20904128007578DE /* AddCardController.swift in Sources */,
 				D04B6127208DA40400D7090B /* AppDelegate.swift in Sources */,
-				D0464DBF208F4F7700EE0AC0 /* CardEditorController.swift in Sources */,
+				D0464DBF208F4F7700EE0AC0 /* EditCardController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

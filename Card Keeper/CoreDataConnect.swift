@@ -20,7 +20,7 @@ class CoreDataConnect {
         self.context = context
     }
     
-    func addCard(data:[String:AnyObject]) -> Bool {
+    func addCard(data:[String:Any]) -> Bool {
         let the_id = UUID()
         
         let insertion = NSEntityDescription.insertNewObject(forEntityName: self.entityName, into: self.context) as! cardType
@@ -65,7 +65,7 @@ class CoreDataConnect {
         return false
     }
     
-    func updateCard(cardID:UUID, updateData:[String:AnyObject]) -> Bool {
+    func updateCard(cardID:UUID, updateData:[String:Any]) -> Bool {
         let request = NSFetchRequest<NSFetchRequestResult>(entityName: self.entityName)
         request.predicate = NSPredicate(format: "id = \(cardID)")
         do {

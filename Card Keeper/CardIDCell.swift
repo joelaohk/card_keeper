@@ -9,16 +9,19 @@ import UIKit
 import Former
 
 class CardIDCell: UITableViewCell, TextFieldFormableRow {
+    @IBOutlet weak var cardIDTextField: UITextField!
+    @IBOutlet weak var scanIDButton: UIButton!
+    
     func formTextField() -> UITextField {
-        <#code#>
+        return cardIDTextField
     }
     
     func formTitleLabel() -> UILabel? {
-        <#code#>
+        return nil
     }
     
     func updateWithRowFormer(_ rowFormer: RowFormer) {
-        <#code#>
+        
     }
     
 

@@ -16,7 +16,9 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
     var dataConnector: CoreDataConnect?
     var appDelegate: AppDelegate!
     var context: NSManagedObjectContext!
+
     
+    @IBOutlet weak var cardCollection: UICollectionView!
     @IBAction func unwindToMain(segue:UIStoryboardSegue) { }
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
@@ -35,15 +37,19 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
             return cell
         }
         let cardImageView = cell.viewWithTag(1) as! UIImageView
+        cardImageView.layer.cornerRadius = 15
+        cardImageView.layer.masksToBounds = true
         cardImageView.image = cardImage
         return cell
     }
     
-    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        let mainStoryboard = UIStoryboard(name: "Main", bundle: nil)
-        let detailCardVC = mainStoryboard.instantiateViewController(withIdentifier: "CardDetail") as! CardDetailViewController
-        detailCardVC.selectedCard = allCards[indexPath.row]
-        self.navigationController?.pushViewController(detailCardVC, animated: true)
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if (segue.identifier == "seeDetail") {
+            let detailCardVC = segue.destination as! CardDetailViewController
+            let selected = sender as! UICollectionViewCell
+            let count = self.cardCollection.indexPath(for: selected)?.item
+            detailCardVC.selectedCard = allCards[count!]
+        }
     }
     
     func initDataConnector() {
@@ -56,6 +62,9 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
     
     override func viewWillAppear(_ animated: Bool) {
         self.getCards()
+        if let collect = self.cardCollection {
+            collect.reloadData()
+        }
         
     }
     
@@ -66,6 +75,8 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
         self.context = appDelegate.persistentContainer.viewContext
         self.initDataConnector()
         self.getCards()
+        
+        
         // Do any additional setup after loading the view, typically from a nib.
     }
 

@@ -13,7 +13,8 @@ final class CardImageHolderCell: UITableViewCell {
     @IBOutlet weak var CardImageHolder: UIImageView!
     override func awakeFromNib() {
         super.awakeFromNib()
-        
+        CardImageHolder.layer.cornerRadius = 20.0
+        CardImageHolder.layer.masksToBounds = true
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {

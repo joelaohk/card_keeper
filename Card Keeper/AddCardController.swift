@@ -13,6 +13,21 @@ import IRLDocumentScanner
 class AddCardController: UIViewController, IRLScannerViewControllerDelegate {
     func pageSnapped(_ page_image: UIImage, from controller: IRLScannerViewController) {
         controller.dismiss(animated: true) { () -> Void in
+            let width = page_image.size.width
+            let height = page_image.size.height
+            var rotated: UIImage?
+            if (height/width > 1) {
+                rotated = self.imageRotatedByDegrees(oldImage: page_image, deg: 90)
+            }
+            if let rotate = rotated {
+                self.mainView.cardImageHolderRow.cell.CardImageHolder.image = rotate
+                let imageData = UIImageJPEGRepresentation(rotate, 1)
+                self.mainView.cardData["image"] = imageData
+            } else {
+                self.mainView.cardImageHolderRow.cell.CardImageHolder.image = page_image
+                let imageData = UIImageJPEGRepresentation(page_image, 1)
+                self.mainView.cardData["image"] = imageData
+            }
         }
     }
     
@@ -43,18 +58,19 @@ class AddCardController: UIViewController, IRLScannerViewControllerDelegate {
     var dataConnect: CoreDataConnect!
     var appDelegate: AppDelegate!
     var context: NSManagedObjectContext!
+    
     @IBAction func confirmToAdd(_ sender: Any) {
         let success = dataConnect.addCard(data: mainView.cardData)
         if (!success) {
             print("GOSH!")
         }
+        performSegue(withIdentifier: "unwindToMain", sender: self)
     }
     @IBAction func goBack(_ sender: Any) {
         performSegue(withIdentifier: "unwindToMain", sender: self)
     }
     
     @objc func imageTapped(tapGestureRecognizer: UITapGestureRecognizer) {
-        let tappedImage = tapGestureRecognizer.view as! UIImageView
         let scanner = IRLScannerViewController.standardCameraView(with: self)
         scanner.showControls = true
         scanner.showAutoFocusWhiteRectangle = true
@@ -67,11 +83,15 @@ class AddCardController: UIViewController, IRLScannerViewControllerDelegate {
         self.appDelegate = UIApplication.shared.delegate as! AppDelegate
         self.context = appDelegate.persistentContainer.viewContext
         self.dataConnect = CoreDataConnect(context: context)
-        
+        mainView.alwaysBounceVertical = true
         let cardFaceImageView = mainView.cardImageHolderRow.cell.CardImageHolder
         let tapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(imageTapped(tapGestureRecognizer:)))
         cardFaceImageView!.isUserInteractionEnabled = true
         mainView.cardImageHolderRow.cell.CardImageHolder.addGestureRecognizer(tapGestureRecognizer)
+        
+        //let tapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(imageTapped(tapGestureRecognizer:)))
+        //mainView.cardIDRow.cell.scanIDButton.addGestureRecognizer()
+        
         // Do any additional setup after loading the view.
     }
 
@@ -81,6 +101,26 @@ class AddCardController: UIViewController, IRLScannerViewControllerDelegate {
     }
     
 
+    func imageRotatedByDegrees(oldImage: UIImage, deg degrees: CGFloat) -> UIImage {
+        //Calculate the size of the rotated view's containing box for our drawing space
+        let rotatedViewBox: UIView = UIView(frame: CGRect(x: 0, y: 0, width: oldImage.size.width, height: oldImage.size.height))
+        let t: CGAffineTransform = CGAffineTransform(rotationAngle: degrees * CGFloat.pi / 180)
+        rotatedViewBox.transform = t
+        let rotatedSize: CGSize = rotatedViewBox.frame.size
+        //Create the bitmap context
+        UIGraphicsBeginImageContext(rotatedSize)
+        let bitmap: CGContext = UIGraphicsGetCurrentContext()!
+        //Move the origin to the middle of the image so we will rotate and scale around the center.
+        bitmap.translateBy(x: rotatedSize.width / 2, y: rotatedSize.height / 2)
+        //Rotate the image context
+        bitmap.rotate(by: (degrees * CGFloat.pi / 180))
+        //Now, draw the rotated/scaled image into the context
+        bitmap.scaleBy(x: 1.0, y: -1.0)
+        bitmap.draw(oldImage.cgImage!, in: CGRect(x: -oldImage.size.width / 2, y: -oldImage.size.height / 2, width: oldImage.size.width, height: oldImage.size.height))
+        let newImage: UIImage = UIGraphicsGetImageFromCurrentImageContext()!
+        UIGraphicsEndImageContext()
+        return newImage
+    }
     /*
     // MARK: - Navigation
 

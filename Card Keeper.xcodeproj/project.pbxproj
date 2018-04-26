@@ -23,7 +23,7 @@
 		D04B613F208DA40600D7090B /* Card_KeeperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04B613E208DA40600D7090B /* Card_KeeperTests.swift */; };
 		D04B614A208DA40600D7090B /* Card_KeeperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04B6149208DA40600D7090B /* Card_KeeperUITests.swift */; };
 		D04B6158208DA6EF00D7090B /* CoreDataConnect.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04B6157208DA6EF00D7090B /* CoreDataConnect.swift */; };
-		D051069B20903F11007578DE /* CardEditorView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D051069A20903F11007578DE /* CardEditorView.xib */; };
+		D051069B20903F11007578DE /* CardEditorTableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D051069A20903F11007578DE /* CardEditorTableView.xib */; };
 		D051069D20904128007578DE /* AddCardController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D051069C20904128007578DE /* AddCardController.swift */; };
 /* End PBXBuildFile section */
 
@@ -68,7 +68,7 @@
 		D04B6149208DA40600D7090B /* Card_KeeperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card_KeeperUITests.swift; sourceTree = "<group>"; };
 		D04B614B208DA40600D7090B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D04B6157208DA6EF00D7090B /* CoreDataConnect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataConnect.swift; sourceTree = "<group>"; };
-		D051069A20903F11007578DE /* CardEditorView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CardEditorView.xib; sourceTree = "<group>"; };
+		D051069A20903F11007578DE /* CardEditorTableView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CardEditorTableView.xib; sourceTree = "<group>"; };
 		D051069C20904128007578DE /* AddCardController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCardController.swift; sourceTree = "<group>"; };
 		D7F230E6CA3132F14346EF6F /* Pods-Card Keeper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Card Keeper.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Card Keeper/Pods-Card Keeper.debug.xcconfig"; sourceTree = "<group>"; };
 		F40DA9D11B48CED49155B05F /* Pods-Card Keeper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Card Keeper.release.xcconfig"; path = "Pods/Target Support Files/Pods-Card Keeper/Pods-Card Keeper.release.xcconfig"; sourceTree = "<group>"; };
@@ -149,7 +149,7 @@
 				D04B6128208DA40400D7090B /* ViewController.swift */,
 				D04B612A208DA40400D7090B /* Main.storyboard */,
 				D051069C20904128007578DE /* AddCardController.swift */,
-				D051069A20903F11007578DE /* CardEditorView.xib */,
+				D051069A20903F11007578DE /* CardEditorTableView.xib */,
 				D042DBFD2090DF310093B531 /* CardEditorTableView.swift */,
 				D042DBF62090B5180093B531 /* CardFaceCell.xib */,
 				D042DBFA2090C4AA0093B531 /* CardImageHolderCell.swift */,
@@ -296,7 +296,7 @@
 				D04B6134208DA40600D7090B /* LaunchScreen.storyboard in Resources */,
 				D04B6131208DA40600D7090B /* Assets.xcassets in Resources */,
 				D04B612C208DA40400D7090B /* Main.storyboard in Resources */,
-				D051069B20903F11007578DE /* CardEditorView.xib in Resources */,
+				D051069B20903F11007578DE /* CardEditorTableView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -17,9 +17,7 @@ class AddCardController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        let editorView = CardEditorTableView()
-        editorView.contentMode = UIViewContentMode.scaleAspectFit
-        self.view.addSubview(editorView)
+        
         // Do any additional setup after loading the view.
     }
 

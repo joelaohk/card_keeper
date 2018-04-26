@@ -10,13 +10,14 @@ import UIKit
 import Former
 
 class CardEditorTableView: UITableView {
-
+    var tableView: UITableView!
     
-    private lazy var former: Former = Former(tableView: self)
+    private lazy var former: Former = Former(tableView: tableView)
     var cardNameRow: TextViewRowFormer<FormTextViewCell>!
     var issuerRow: TextViewRowFormer<FormTextViewCell>!
     var cardImageHolderRow: CustomRowFormer<CardImageHolderCell>!
-    var section: SectionFormer!
+    var cardFaceSection: SectionFormer!
+    var cardInfoSection: SectionFormer!
     override init(frame: CGRect, style: UITableViewStyle) {
         super.init(frame: CGRect.zero, style: .grouped)
         setup()
@@ -32,16 +33,37 @@ class CardEditorTableView: UITableView {
     }
     
     func setup() {
+        let bundle = Bundle(for: type(of: self))
+        let nib = UINib(nibName: String(describing: type(of: self)), bundle: bundle)
+        let view = nib.instantiate(withOwner: self, options: nil).first as! UITableView
+        view.frame = bounds
+        view.autoresizingMask = [UIViewAutoresizing.flexibleWidth,UIViewAutoresizing.flexibleHeight]
+        
+        self.tableView = view
+        
+        self.cardImageHolderRow = CustomRowFormer<CardImageHolderCell>(instantiateType: .Nib(nibName: "CardFaceCell")).configure {
+            row in
+            row.rowHeight = 227
+        }
+        let cardNameLabelRow = LabelRowFormer<FormLabelCell>().configure {
+            row in
+            row.rowHeight = 30
+            row.text = "CARD NAME"
+        }
         self.cardNameRow = TextViewRowFormer<FormTextViewCell>().configure {
             row in row.placeholder = "Card name"
+            row.rowHeight = 40
         }
         self.issuerRow = TextViewRowFormer<FormTextViewCell>().configure {
             row in row.placeholder = "Issuer"
+            row.rowHeight = 40
         }
-        self.cardImageHolderRow = CustomRowFormer<CardImageHolderCell>()
         
-        self.section = SectionFormer(rowFormer: cardImageHolderRow,cardNameRow, issuerRow)
-        self.former.append(sectionFormer: section)
+        
+        self.cardFaceSection = SectionFormer(rowFormer: cardImageHolderRow)
+        self.cardInfoSection = SectionFormer(rowFormer: cardNameLabelRow, cardNameRow, issuerRow)
+        self.former.append(sectionFormer: cardFaceSection, cardInfoSection)
+        addSubview(view)
     }
     
     /*

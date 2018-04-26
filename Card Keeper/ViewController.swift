@@ -54,7 +54,11 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
         self.allCards = dataConnector?.retrieveCards()
     }
     
-
+    override func viewWillAppear(_ animated: Bool) {
+        self.getCards()
+        
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         

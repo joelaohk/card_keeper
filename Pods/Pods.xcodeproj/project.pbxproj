@@ -7,62 +7,154 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		04272DD3663386808A82550ED7717531 /* Pods-Card Keeper-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 106398F86C1F47AD5F04267DF48FEFE6 /* Pods-Card Keeper-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0D419A0A140CCD76C4ABC610469A7F86 /* SelectorPickerRowFormer.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7481D8A322528FD913CA1C85F2C824 /* SelectorPickerRowFormer.swift */; };
-		16A4C7DFC018425404008E8DF2A8D2A3 /* SwitchRowFormer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865F8DCEEE8622000590DCE4DE6058F9 /* SwitchRowFormer.swift */; };
-		16B052A781EBC363764D6BF825BF08AC /* SelectorDatePickerRowFormer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDE3BF0869797E18D19BF993A4CCFA1 /* SelectorDatePickerRowFormer.swift */; };
-		17EFA9C01D6621D1DCF25660C1F5F7E4 /* FormPickerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99CFECF94D29CF7EB426EAAE056EBCC7 /* FormPickerCell.swift */; };
-		189C57CEA44F24610F314FF842FDEF53 /* FormLabelHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348D954C1C8B7C875EBDC46D4B69B5EC /* FormLabelHeaderView.swift */; };
-		2EE2351C2A901B95575996A266873EAC /* FormStepperCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9718C3B617E2D4B77A197EF18C946892 /* FormStepperCell.swift */; };
-		33B9C0A36836C1FB916408CEF2D5F02B /* FormerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97E7F6ED11EEC5354C85771E21843C01 /* FormerProtocol.swift */; };
-		3513BAD9FDE72F17B92827FE76F80F35 /* Former-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 77DE25B0ECE4A57347FE168D7E2B5CF8 /* Former-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3793524FFF17C1211184E1F7A9BF17D5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
-		39C46C8DA3341A7EBC4DE56B2FF6977C /* InlinePickerRowFormer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2DBD328A5C0650084CC7C5F78CF43D /* InlinePickerRowFormer.swift */; };
-		3B26519FB571112C58B6A58E36F6C024 /* Former-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E57E8E7D1B6B67C71D323B5F77F8CF /* Former-dummy.m */; };
-		409AC7622D139B31EDA35EF24EC8BC80 /* Pods-Card Keeper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F6B3A282311A5AC3CF32227624097DD /* Pods-Card Keeper-dummy.m */; };
-		45A8883BB91A0C92532CFF54EDE6F13A /* FormInlinePickerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0038A78A0EB76D20D4CDE16502A1F2AC /* FormInlinePickerCell.swift */; };
-		4C69299B51B74F70F02E4AF10AF38D7F /* FormSelectorDatePickerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B07E01AD02C0CB40A72D8E8519074C5 /* FormSelectorDatePickerCell.swift */; };
-		4EDC151113BF40EEA2F326AF2432AAB1 /* CustomRowFormer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E59754074EC42A5F4B5931A32A3DF2 /* CustomRowFormer.swift */; };
-		4EFE73FBD31B8A1674514B2E029BA8CD /* FormHeaderFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D97B39520F34E516257BF6974F63509 /* FormHeaderFooterView.swift */; };
-		546D31CA3475C9BA13235F4922CB845B /* FormSliderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8BCAE9CC9276B5348DAD5165FA8348 /* FormSliderCell.swift */; };
-		55772E659D33D42E6EEDF71D251FAB2D /* FormCheckCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C02680BBFFD6371BB844E98A2DD262E /* FormCheckCell.swift */; };
-		5FAF74594460C8D9B157D952AD7295EF /* PickerRowFormer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23FC43C796D0A913A54EF88E27B23786 /* PickerRowFormer.swift */; };
-		68B163429BCDC122CDBA8214FF07C198 /* ViewFormer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303C7B4B1EBE7A56443AFC1551298428 /* ViewFormer.swift */; };
-		694E28245529184FE8E141808B13944F /* SegmentedRowFormer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02DC832ECD07CC04A199EE8437856F22 /* SegmentedRowFormer.swift */; };
-		6B95D6771182922AD0FBFC7724ED08C4 /* FormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D38CD998A25027317F90D59023CCDE3 /* FormViewController.swift */; };
-		6DA4F9CD1982D1DBC04997C17A93BE8C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
-		78B42FE1E47FCAA0DD24903BD9426405 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
-		7EE1017AB43B9F22AAE7275204FD37AE /* FormSwitchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5AE7BCA40FEEE96BA2BE1AA9FFD911 /* FormSwitchCell.swift */; };
-		83163EB183883A03B5DB60B70828B189 /* FormDatePickerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61B5AA9FED05038393A497EEA19E612 /* FormDatePickerCell.swift */; };
-		8E7FA123DFABE64E19ED5A7DF90D36A4 /* CustomViewFormer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C83221AE6AF2B44127689C892B0F0E8 /* CustomViewFormer.swift */; };
-		94B13140E811D85AD9594F66CCD46A4A /* LabelRowFormer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A8CD911003D94FE86E5D0260A308E0 /* LabelRowFormer.swift */; };
-		A82DB4FBC7E2AE3C28D22BFCA2C4F419 /* RowFormer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E0471E118D7D7FB31C714CEAEC5C7CE /* RowFormer.swift */; };
-		A84D87C6083E28309039FF58DE79468B /* FormLabelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2292813BB2E5F75BBFC05EEB2D9810C /* FormLabelCell.swift */; };
-		AE37967D9124D3DEF3D3F76BAAF6D693 /* TextFieldRowFormer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC94B7A659EBF0B2ABA527A790E16F9 /* TextFieldRowFormer.swift */; };
-		AE936C2ACC5E117B7B837579D7BA0038 /* BaseViewFormer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7A3E790C9E6E7187A7306741E57082 /* BaseViewFormer.swift */; };
-		AF3DA11374B37D880A650CF701AABCFE /* FormTextFieldCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC16BE37DB60C747811E914A9990CCE /* FormTextFieldCell.swift */; };
-		B5729C1C328395C69DADEF10ECD56EE0 /* LabelViewFormer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51DCE8825FC0ACB2F17D880E7C98F361 /* LabelViewFormer.swift */; };
-		B58D53F8B6565779B62D6FFE49C3253B /* FormSegmentedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D1CEEC8A262F599C40514EF365CE6E /* FormSegmentedCell.swift */; };
-		BBFB67C50B82DECA17A136C35C15438C /* BaseRowFormer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60109CD819DF16B5CA6524F2590ED4DF /* BaseRowFormer.swift */; };
-		C4AE8A38FDC9570C4CC436154A9D4CAC /* SectionFormer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8831CD7B602D063BE98D5141AFABC13F /* SectionFormer.swift */; };
-		C5F215094C2681535E9F9A49AD6A6FBE /* FormTextViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE85A9C17202CC0C4F83132E2EB030C /* FormTextViewCell.swift */; };
-		C69E16BA4B29E974C6162C2EB64B72F5 /* DatePickerRowFormer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD462D9E30A49E6A9383DB6C248263A /* DatePickerRowFormer.swift */; };
-		CE7C6D64C81DD144594F04A28D2F139C /* CheckRowFormer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449FB69DD42CC529E5B3286448E6BAFF /* CheckRowFormer.swift */; };
-		D3B3C4959E87242CE3DA4E7C39BEA5B1 /* FormSelectorPickerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC7D596D551807E46EFC51513261689 /* FormSelectorPickerCell.swift */; };
-		D7096844778FD786DEA1FF19EDE57DD8 /* Former.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21AFFC769C21DFEE704BEBCBCAD626A1 /* Former.swift */; };
-		D9C338868E91B8ADFF37848BF3B469B5 /* TextViewRowFormer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9AAD66C4F6FA860365C8985D7E2613A /* TextViewRowFormer.swift */; };
-		DA7536D00F56D42625FC9D1F8A8D6A0A /* FormCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F7D05195CA27B9196DBD3717795D92 /* FormCell.swift */; };
-		DCC21235139A2A7B308BB095736BCF3A /* SliderRowFormer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC4C0A6D1127A6C2E5FC9E25233C355 /* SliderRowFormer.swift */; };
-		ECF68AB0AB6628F958358DA4DB6AF4B5 /* InlineDatePickerRowFormer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA241A9EEEC2B272B011FE721F674272 /* InlineDatePickerRowFormer.swift */; };
-		EFD3F3570A5F9EA4265063278BC78A45 /* FormLabelFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CDB8C56D8B92B30EA045742ED6B0F8 /* FormLabelFooterView.swift */; };
-		F605F8E6F29D12C15B687BF682531555 /* StepperRowFormer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088A29B593CD269C4C4B2F6B756C658A /* StepperRowFormer.swift */; };
-		F95AD2DEE354C9219E492908B3741F7A /* UITableViewCell+Former.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC71D09AF1774679CC8F9C7829131A7B /* UITableViewCell+Former.swift */; };
-		F9C5FEA6B4EEEC9F348A7781D55DD101 /* FormInlineDatePickerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9371182C3184235E81DC07AC2C368969 /* FormInlineDatePickerCell.swift */; };
-		FD7D88BEDD0AE05917D12C317D1FB70C /* Former.h in Headers */ = {isa = PBXBuildFile; fileRef = 540D5794A8B70E35E429BDDEDA124100 /* Former.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		069FA1D5F251F97C2DC80BFD52D47D45 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFE03DE3BB649243B4E75789B4E7C962 /* Foundation.framework */; };
+		081DDFEB8AAB3B7702603A3099BB4FDB /* TOCropViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 093CB9E778D6B82E382B336DD6629EFE /* TOCropViewController.m */; };
+		0D419A0A140CCD76C4ABC610469A7F86 /* SelectorPickerRowFormer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE89BC9943CA1CBB2D2F637F60D1555 /* SelectorPickerRowFormer.swift */; };
+		0DC053CD7BE1B998BF22B7EB7881E498 /* TOCropViewController-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = 4859BB0EF2479A70531835A92C1EA93C /* TOCropViewController-Bridging-Header.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1039BDE3245EDD01966CF25E67EEF2D7 /* UIButton+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = A66C819978965DE84B1848ABEFDD7B0E /* UIButton+Extensions.m */; };
+		1462D3D8EFC98D68EC0F61AF67F4AC9A /* pt.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 4A67AE99523C35333A7BDA01657EEAE2 /* pt.lproj */; };
+		16A4C7DFC018425404008E8DF2A8D2A3 /* SwitchRowFormer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3277EFE7DEF81760E58BCCAAAF444A40 /* SwitchRowFormer.swift */; };
+		16B052A781EBC363764D6BF825BF08AC /* SelectorDatePickerRowFormer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 483FBF97CD6441CB4DCFED268ED35776 /* SelectorDatePickerRowFormer.swift */; };
+		17EFA9C01D6621D1DCF25660C1F5F7E4 /* FormPickerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6679545336C302D6F5C4F16D7747650 /* FormPickerCell.swift */; };
+		189C57CEA44F24610F314FF842FDEF53 /* FormLabelHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F345F43C1FE428F5609A09EC5922DB32 /* FormLabelHeaderView.swift */; };
+		1DFB8098EAC7B2C890BB482CA5EF9DDA /* da.lproj in Resources */ = {isa = PBXBuildFile; fileRef = C2D7A81566D53823AE6A1A52168651C5 /* da.lproj */; };
+		1FB0EF0D326F23D138F3EF3726625C20 /* TOCropOverlayView.h in Headers */ = {isa = PBXBuildFile; fileRef = D73E0495C9C2ACC13CBF4A99BB359879 /* TOCropOverlayView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		260418377A75D4DD5724658A28D61247 /* IRLDocumentScanner-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E4546967B4698318CDE2D994002E91F2 /* IRLDocumentScanner-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		286E1811859332B20F918AD891B2853F /* TOCropViewController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3921B9877980F0C9A97DFC0643701A1F /* TOCropViewController.framework */; };
+		2B1442D6FAD9554B765E6A37755F36C8 /* TOCropScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 53B9B38D4514145CD0DF964A9210690B /* TOCropScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2EE2351C2A901B95575996A266873EAC /* FormStepperCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D8AB1CB1BF189D9134ABA2FD4D3BB0D /* FormStepperCell.swift */; };
+		33B9C0A36836C1FB916408CEF2D5F02B /* FormerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF8CC2B8F9BE97BE0EA7055185675EC /* FormerProtocol.swift */; };
+		3513BAD9FDE72F17B92827FE76F80F35 /* Former-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AA809717ACAF403E73D151FEB8D92F4 /* Former-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		35304C46A434D64F7A2BE040437805CB /* TOActivityCroppedImageProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 6732D028D11FD1BD23374E3DBE54ED89 /* TOActivityCroppedImageProvider.m */; };
+		35559673D02BF0187F34204D96EB4A4B /* zh-Hant.lproj in Resources */ = {isa = PBXBuildFile; fileRef = D2F54E5ADBBE7C8C2880FCD61500F184 /* zh-Hant.lproj */; };
+		3584BE4D882530248F08197504B919ED /* it.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 1F9100D66786C62F8B1F30783484E6D1 /* it.lproj */; };
+		378B67C1CE296F30477EBE66F3188786 /* TOCropToolbar.h in Headers */ = {isa = PBXBuildFile; fileRef = 9994F2D4F0027C10B133449414F94859 /* TOCropToolbar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3793524FFF17C1211184E1F7A9BF17D5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FE51300AC49D61FDBB89DDE3553B015 /* UIKit.framework */; };
+		39C46C8DA3341A7EBC4DE56B2FF6977C /* InlinePickerRowFormer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48ED4BD9F09B1A3597722C70BE69469 /* InlinePickerRowFormer.swift */; };
+		3B26519FB571112C58B6A58E36F6C024 /* Former-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CFB92FF7747B4E6CBE64F6B35A8B1E5A /* Former-dummy.m */; };
+		3D6B527F363EFBF5D0E8495767ACA256 /* TOCropViewControllerTransitioning.h in Headers */ = {isa = PBXBuildFile; fileRef = 82286DE9903479FAB83CFBBB48D655A8 /* TOCropViewControllerTransitioning.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3E9DA4A28FC0D6BD0E3AA0B1B3C7CFE0 /* TOCroppedImageAttributes.m in Sources */ = {isa = PBXBuildFile; fileRef = 019F6F17A40468E2BA574F31A23EF106 /* TOCroppedImageAttributes.m */; };
+		407E03F24F0C8AA404216B5D51D563B5 /* TOCropToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = D558119C5C091FF37BAFA812F4C4F6EC /* TOCropToolbar.m */; };
+		44BD6F3ABC4C356E03E936643C4506E6 /* de.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 773CA33BEF1E49ED3D95CB1751A81048 /* de.lproj */; };
+		459ABC2D5C6A04F267D041B1584367A6 /* UIImage+CropRotate.h in Headers */ = {isa = PBXBuildFile; fileRef = BFF49C4EAB15A53D40E781CBB7207899 /* UIImage+CropRotate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		45A8883BB91A0C92532CFF54EDE6F13A /* FormInlinePickerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEDF29FDFB39405D15E68BB7E16C9ECF /* FormInlinePickerCell.swift */; };
+		4686D51128D52DD0041E850292B581E7 /* TOCropScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = CA7C7E969BA9E957A19F5F6722E4A697 /* TOCropScrollView.m */; };
+		48DAF7BE5FD795400547CF491B3A86D9 /* ko.lproj in Resources */ = {isa = PBXBuildFile; fileRef = F7CF7C635DFB650BC5206A75E3A6814F /* ko.lproj */; };
+		4AD38EEB9C32F6A93D2FC1598DB961E8 /* en.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 84A86294F0409E7BC6F04B314B77F488 /* en.lproj */; };
+		4C69299B51B74F70F02E4AF10AF38D7F /* FormSelectorDatePickerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC932D0DF7963EE9608F1D892497384 /* FormSelectorDatePickerCell.swift */; };
+		4EDC151113BF40EEA2F326AF2432AAB1 /* CustomRowFormer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936F5680FF5D3DD12F533442D69DEFEF /* CustomRowFormer.swift */; };
+		4EFE73FBD31B8A1674514B2E029BA8CD /* FormHeaderFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A963ECED9F20CE1C65513521795DBE /* FormHeaderFooterView.swift */; };
+		4F731BB0B4417425F27101020BCEFF27 /* TOCropViewControllerBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = EE80748F2043C80E13506BBC1E362950 /* TOCropViewControllerBundle.bundle */; };
+		504D4212E8FE51E90B657B242BD37BC9 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95EF99CC58B905AD090F12094E387AB0 /* CoreImage.framework */; };
+		546D31CA3475C9BA13235F4922CB845B /* FormSliderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5CC127FC41E663BC0C54CD2CC5E8B1 /* FormSliderCell.swift */; };
+		55772E659D33D42E6EEDF71D251FAB2D /* FormCheckCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16A7FA3AA1E87D45C2766923A4BE2951 /* FormCheckCell.swift */; };
+		5BACB8CF7F3530444DBCB6C7C01FD98D /* id.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 0AEAB4547FE5B4A8FDB2D6E0FE95B739 /* id.lproj */; };
+		5C7426D1CC3C8CDD9D8C2D426A01B6C5 /* TOCropView.h in Headers */ = {isa = PBXBuildFile; fileRef = 75D9718476ECA16CEF18EB4FF4D9C03E /* TOCropView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5FAF74594460C8D9B157D952AD7295EF /* PickerRowFormer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7516A087DE4EC63F3EF910CFE6E82BD /* PickerRowFormer.swift */; };
+		64A71F62A56DB4EDDE52DEE9B14F840F /* CIImage+Utilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DD18A64C300ABF52226D9E37AE6B41F /* CIImage+Utilities.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		6816977BB16FCB17364B2AC01DDDDB25 /* Pods-Card Keeper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F6B3A282311A5AC3CF32227624097DD /* Pods-Card Keeper-dummy.m */; };
+		68B163429BCDC122CDBA8214FF07C198 /* ViewFormer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD6F56C1E9EDDBC175AF7AC877D9E04 /* ViewFormer.swift */; };
+		694E28245529184FE8E141808B13944F /* SegmentedRowFormer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8DFE897ACCCDA8F0C45084D7F508C4B /* SegmentedRowFormer.swift */; };
+		6B95D6771182922AD0FBFC7724ED08C4 /* FormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F7736F5441275AE6272102734727CA /* FormViewController.swift */; };
+		739EC145EB80D5294EF51D8951DDBF2B /* TOCropViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BA46640F6DC949B00B6371DEDAE8E418 /* TOCropViewController-dummy.m */; };
+		7428D1CB4584221F394E043BFE4C7991 /* ru.lproj in Resources */ = {isa = PBXBuildFile; fileRef = CD9518C9AABDAFCAEBD0CC60AA4F999D /* ru.lproj */; };
+		75FB99C5537ADA161EA4EE2512478371 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BD2785375FD824B2C08468B3D6F2009 /* AVFoundation.framework */; };
+		78B42FE1E47FCAA0DD24903BD9426405 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFE03DE3BB649243B4E75789B4E7C962 /* Foundation.framework */; };
+		7EE1017AB43B9F22AAE7275204FD37AE /* FormSwitchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78DD0F93468030DF9CB7B8D8D4B6677A /* FormSwitchCell.swift */; };
+		7F7140F071716B249DF2E75F824AA50F /* TOCropView.m in Sources */ = {isa = PBXBuildFile; fileRef = D5F511DD71E5A730E0F381C1DDC7B607 /* TOCropView.m */; };
+		815583DEF588DE88D2083C1A659FA74F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FE51300AC49D61FDBB89DDE3553B015 /* UIKit.framework */; };
+		83163EB183883A03B5DB60B70828B189 /* FormDatePickerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1690AC70A571D1525431ED99FAD236F /* FormDatePickerCell.swift */; };
+		83AA7F9EAA2598674C8AB8D9A8912D55 /* tr.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 297B45CD8135EB415B76DDEF698369F5 /* tr.lproj */; };
+		8A2C71B331D848E8145C2D54C772706D /* fr.lproj in Resources */ = {isa = PBXBuildFile; fileRef = A643375DC26773CC7BF637D38255655D /* fr.lproj */; };
+		8BCB39DC237B841591DF71887D790B38 /* IRLCameraMedia.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6B718446E4CC747F56215DD177554FC /* IRLCameraMedia.xcassets */; };
+		8C4F9A4A2A5C22C72DA19C09064369CD /* pl.lproj in Resources */ = {isa = PBXBuildFile; fileRef = B83BAC23FCEED0EC2D470C3DC862E9BC /* pl.lproj */; };
+		8E7FA123DFABE64E19ED5A7DF90D36A4 /* CustomViewFormer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B32376BC3E27ABC2CDA3E86557E306A8 /* CustomViewFormer.swift */; };
+		94B13140E811D85AD9594F66CCD46A4A /* LabelRowFormer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8847D125B7F49FD1EF709E6D2BC875 /* LabelRowFormer.swift */; };
+		9638352BA40684D28238FB7AC210B433 /* vi.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 3FE8E004A7B55909B4CEA5D0F8328BE8 /* vi.lproj */; };
+		968296FFBAFBA6ECC2E32F2254D9F9CE /* TOCropViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AB26B2E9F547F85E3F6C97EB1B8D6874 /* TOCropViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		97C38340B84E7BC478298926D061DF0B /* TOActivityCroppedImageProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = C8796E1E7BCAD993F44B5C4862BCBC01 /* TOActivityCroppedImageProvider.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		97EEE792B75821F5EBFB8DBB66FD38C5 /* TOCropViewControllerTransitioning.m in Sources */ = {isa = PBXBuildFile; fileRef = 85FDF489B2552AC2AA427DC43E1E64C8 /* TOCropViewControllerTransitioning.m */; };
+		97EEEC4C0AB6AC2CC5C64A74B830D0BA /* ar.lproj in Resources */ = {isa = PBXBuildFile; fileRef = D43A32EF97127EFAF909F2A5E06EFB43 /* ar.lproj */; };
+		9FC7559CF793BB2D6AD2194B5F779C4C /* Pods-Card Keeper-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 106398F86C1F47AD5F04267DF48FEFE6 /* Pods-Card Keeper-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A37ACF008992BEA5C5CE9555FF225565 /* es.lproj in Resources */ = {isa = PBXBuildFile; fileRef = D22CEE5F6AACA444DF144D2F0B006F5C /* es.lproj */; };
+		A3C771AFF0731F375F43D7E63F50AEB4 /* IRLCamera.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2C8D3B140055F4B05B53C68902512F7 /* IRLCamera.storyboard */; };
+		A82DB4FBC7E2AE3C28D22BFCA2C4F419 /* RowFormer.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDDA96500E767535CA9E4B91EDF5C9E8 /* RowFormer.swift */; };
+		A84D87C6083E28309039FF58DE79468B /* FormLabelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F80DCBA36A1770D44C6BF38E507F252 /* FormLabelCell.swift */; };
+		AE37967D9124D3DEF3D3F76BAAF6D693 /* TextFieldRowFormer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A83E9A76C28A7F591821B9D7D58D2F /* TextFieldRowFormer.swift */; };
+		AE936C2ACC5E117B7B837579D7BA0038 /* BaseViewFormer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7A49661F54DA4A78B4B37C8B40E908 /* BaseViewFormer.swift */; };
+		AEB9D4336369E51D0B9189AD7423425C /* IRLCameraView.m in Sources */ = {isa = PBXBuildFile; fileRef = E5F43669F662894C3A954A18657AEBBA /* IRLCameraView.m */; };
+		AF3DA11374B37D880A650CF701AABCFE /* FormTextFieldCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC5802F8E4DF6CD9ECCF8C7C2332932 /* FormTextFieldCell.swift */; };
+		B43AAA30308710C5AB60767BB2F1BE2E /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5563382F41F9BF57EEDC8B1BBDF84A49 /* GLKit.framework */; };
+		B5729C1C328395C69DADEF10ECD56EE0 /* LabelViewFormer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6490C8880B03C58C45B72D09974CBDCE /* LabelViewFormer.swift */; };
+		B58D53F8B6565779B62D6FFE49C3253B /* FormSegmentedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE86B3891A82CDAEE09F43A75ED7273 /* FormSegmentedCell.swift */; };
+		B822AE2434EF786A9B80FA36B78381C6 /* zh-Hans.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 2910A8BCD980AC003AB98BB76E188219 /* zh-Hans.lproj */; };
+		BA673215FAA078BD774FA92CBCC0A507 /* CIRectangleFeature+Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = BA6ABC7F1EBB265D411A7438DC8F0527 /* CIRectangleFeature+Utilities.m */; };
+		BB331D7A6F74F815C1289781CAEA7617 /* CIRectangleFeature+Utilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F52AA58417A6472C8259FC80D549D72 /* CIRectangleFeature+Utilities.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		BBFB67C50B82DECA17A136C35C15438C /* BaseRowFormer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5830F1C5DAA3D01E0A786F1449CA86DC /* BaseRowFormer.swift */; };
+		C4AE8A38FDC9570C4CC436154A9D4CAC /* SectionFormer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9CE74C38C91E7EDE38B6FEF6219ED2C /* SectionFormer.swift */; };
+		C5F215094C2681535E9F9A49AD6A6FBE /* FormTextViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2484D2773466C557247212A060183BCA /* FormTextViewCell.swift */; };
+		C69E16BA4B29E974C6162C2EB64B72F5 /* DatePickerRowFormer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC64853E449E59D8161E1EDDDAEAD7A /* DatePickerRowFormer.swift */; };
+		CE7C6D64C81DD144594F04A28D2F139C /* CheckRowFormer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E9EFA699E3D43F9DACDB1DC85C4698A /* CheckRowFormer.swift */; };
+		D3B3C4959E87242CE3DA4E7C39BEA5B1 /* FormSelectorPickerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 866BFC8DA8691F072D6F48EBC4E86D4C /* FormSelectorPickerCell.swift */; };
+		D7096844778FD786DEA1FF19EDE57DD8 /* Former.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FAD5706252D32A7DA727C018E828F1A /* Former.swift */; };
+		D9C338868E91B8ADFF37848BF3B469B5 /* TextViewRowFormer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED689372B691FFE08807F84CF564C8E /* TextViewRowFormer.swift */; };
+		DA7536D00F56D42625FC9D1F8A8D6A0A /* FormCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6337947C72EB60749FE1B7BFAFEDF7 /* FormCell.swift */; };
+		DCC21235139A2A7B308BB095736BCF3A /* SliderRowFormer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B49EB6F17772E991FD1AAB1A9D5B86C /* SliderRowFormer.swift */; };
+		DEC48B436948819C4F83326568D20981 /* IRLScannerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1307C4B40FF61B6A0237D30866CBCBCA /* IRLScannerViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E297E66E752D180A43C8E20C3134AECB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFE03DE3BB649243B4E75789B4E7C962 /* Foundation.framework */; };
+		E406B5A66783CF39F7F86FADFB575EC9 /* IRLDocumentScanner.h in Headers */ = {isa = PBXBuildFile; fileRef = 1975C3C5A85159E737A9720F08FCE499 /* IRLDocumentScanner.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E42AFDA212B8393E47F588FD03CD04B7 /* TOCropOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = F61FAF85F1B19C7C4314B9D0BBD2B7AF /* TOCropOverlayView.m */; };
+		E48C25D637311CF00EFA273B3EE003B4 /* nl.lproj in Resources */ = {isa = PBXBuildFile; fileRef = F54CC7D9A6C85620C410290A80B58559 /* nl.lproj */; };
+		E4B13BF9333E43A3820CC8DE45ED818A /* UIButton+Extensions.h in Headers */ = {isa = PBXBuildFile; fileRef = DBADE37A326C3FF9641C706007FEC254 /* UIButton+Extensions.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		E62AA71C5F1221249B51A17C7F9C8E51 /* IRLDocumentScanner-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5132B9E784563F7046E69F8C18C7803A /* IRLDocumentScanner-dummy.m */; };
+		E768654DA4FE45C52B64E98AD4D63029 /* ja.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 974BBDA15A72DD93CA560724DF94531B /* ja.lproj */; };
+		E8062AC1CE72CCB79BF3890C9A52BC01 /* TOCroppedImageAttributes.h in Headers */ = {isa = PBXBuildFile; fileRef = A3C90CCF6DF978A38FBC09E96B98FFBE /* TOCroppedImageAttributes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ECF68AB0AB6628F958358DA4DB6AF4B5 /* InlineDatePickerRowFormer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2EA44FB4B81C922BC56D444144C12CC /* InlineDatePickerRowFormer.swift */; };
+		ED670862721C31F02F006FDFD84F78BB /* Base.lproj in Resources */ = {isa = PBXBuildFile; fileRef = AE7F010C628595ED56A9CD53A2D29649 /* Base.lproj */; };
+		EFD3F3570A5F9EA4265063278BC78A45 /* FormLabelFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54E26F10EB3D0878AF5C019419AE4B9D /* FormLabelFooterView.swift */; };
+		F515E101C560E02EDD2CF02EB3107FB0 /* ms.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 2B79F83FE02A421FCDA451A8384CD539 /* ms.lproj */; };
+		F605F8E6F29D12C15B687BF682531555 /* StepperRowFormer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7201243BE2E699BA8527E1EEAEF3B73B /* StepperRowFormer.swift */; };
+		F63D5D48358EF680EC4A77CA6C0DB3A9 /* UIImage+CropRotate.m in Sources */ = {isa = PBXBuildFile; fileRef = C399B499EA13E470E943351FACAF068E /* UIImage+CropRotate.m */; };
+		F7B4CCA59EE3C0BBDEE0294FEB9EF698 /* IRLScannerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE63A25FD8BE7B005BDA4059E5B843CE /* IRLScannerViewController.m */; };
+		F8532C05AAA8E752F5F12AA231C2A90B /* CIImage+Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 347CA395F4ABF55AE0AF87556A1A16A7 /* CIImage+Utilities.m */; };
+		F93DEDF8E43973701C4A84B6F951CDCE /* IRLCameraView.h in Headers */ = {isa = PBXBuildFile; fileRef = C04EA2FB93A6F5F7A420ED2CCD3B9FFD /* IRLCameraView.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		F95AD2DEE354C9219E492908B3741F7A /* UITableViewCell+Former.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8DE7FC04C8780E2465BC2975D45C5D2 /* UITableViewCell+Former.swift */; };
+		F9C5FEA6B4EEEC9F348A7781D55DD101 /* FormInlineDatePickerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 812CAC731017EF9DD07EF50450237A49 /* FormInlineDatePickerCell.swift */; };
+		FA0DF456ACA79AC0CF8BF1015CEBB3ED /* TOCropViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C9BC47D13D520AF8E9440DF9CF22C07 /* TOCropViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FD7D88BEDD0AE05917D12C317D1FB70C /* Former.h in Headers */ = {isa = PBXBuildFile; fileRef = 674A5105085A5539CC4E11029B22D65D /* Former.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF7BCBCBAEBC123C9B57757D1FCC1DCB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFE03DE3BB649243B4E75789B4E7C962 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		329F9A4F4BE4F5B7452D0518C1921455 /* PBXContainerItemProxy */ = {
+		25BB2FA43C78468F9AE1958640780F1E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 76AF3B9FABBEE2A7032A010F6FD2BDF7;
+			remoteInfo = TOCropViewController;
+		};
+		992D8D59A809ED5C3FECAFBDA294F9D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 76AF3B9FABBEE2A7032A010F6FD2BDF7;
+			remoteInfo = TOCropViewController;
+		};
+		C38E4047C8B8E2C7D919AA367E77B993 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34513FD28A4C1E4B30321BFFD2AC1EFD;
+			remoteInfo = "TOCropViewController-TOCropViewControllerBundle";
+		};
+		CDCBFD68EC713350601E312A41EA9075 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 61D0B203A649000B9279301C39E5B1BA;
+			remoteInfo = IRLDocumentScanner;
+		};
+		E4E3D8D48738A6C520B873D67678D097 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
@@ -72,72 +164,144 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0038A78A0EB76D20D4CDE16502A1F2AC /* FormInlinePickerCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormInlinePickerCell.swift; path = Former/Cells/FormInlinePickerCell.swift; sourceTree = "<group>"; };
-		02DC832ECD07CC04A199EE8437856F22 /* SegmentedRowFormer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SegmentedRowFormer.swift; path = Former/RowFormers/SegmentedRowFormer.swift; sourceTree = "<group>"; };
-		088A29B593CD269C4C4B2F6B756C658A /* StepperRowFormer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StepperRowFormer.swift; path = Former/RowFormers/StepperRowFormer.swift; sourceTree = "<group>"; };
-		0A8BCAE9CC9276B5348DAD5165FA8348 /* FormSliderCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormSliderCell.swift; path = Former/Cells/FormSliderCell.swift; sourceTree = "<group>"; };
+		019F6F17A40468E2BA574F31A23EF106 /* TOCroppedImageAttributes.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TOCroppedImageAttributes.m; path = "Objective-C/TOCropViewController/Models/TOCroppedImageAttributes.m"; sourceTree = "<group>"; };
+		06942D67E06901996622BEC209626FBB /* TOCropViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TOCropViewController-prefix.pch"; sourceTree = "<group>"; };
+		093CB9E778D6B82E382B336DD6629EFE /* TOCropViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TOCropViewController.m; path = "Objective-C/TOCropViewController/TOCropViewController.m"; sourceTree = "<group>"; };
+		0AEAB4547FE5B4A8FDB2D6E0FE95B739 /* id.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = id.lproj; path = "Objective-C/TOCropViewController/id.lproj"; sourceTree = "<group>"; };
+		0BD2785375FD824B2C08468B3D6F2009 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		0F378575934F0F49D655ED8F63B90D19 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0F6B3A282311A5AC3CF32227624097DD /* Pods-Card Keeper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Card Keeper-dummy.m"; sourceTree = "<group>"; };
 		106398F86C1F47AD5F04267DF48FEFE6 /* Pods-Card Keeper-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Card Keeper-umbrella.h"; sourceTree = "<group>"; };
+		1307C4B40FF61B6A0237D30866CBCBCA /* IRLScannerViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IRLScannerViewController.h; path = Source/Public/IRLScannerViewController.h; sourceTree = "<group>"; };
+		16A7FA3AA1E87D45C2766923A4BE2951 /* FormCheckCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormCheckCell.swift; path = Former/Cells/FormCheckCell.swift; sourceTree = "<group>"; };
 		174EB2449C27F46840767A0912A80687 /* Pods-Card Keeper-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Card Keeper-frameworks.sh"; sourceTree = "<group>"; };
-		19D1CEEC8A262F599C40514EF365CE6E /* FormSegmentedCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormSegmentedCell.swift; path = Former/Cells/FormSegmentedCell.swift; sourceTree = "<group>"; };
-		1DDE3BF0869797E18D19BF993A4CCFA1 /* SelectorDatePickerRowFormer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SelectorDatePickerRowFormer.swift; path = Former/RowFormers/SelectorDatePickerRowFormer.swift; sourceTree = "<group>"; };
-		1EC7D596D551807E46EFC51513261689 /* FormSelectorPickerCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormSelectorPickerCell.swift; path = Former/Cells/FormSelectorPickerCell.swift; sourceTree = "<group>"; };
-		21AFFC769C21DFEE704BEBCBCAD626A1 /* Former.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Former.swift; path = Former/Commons/Former.swift; sourceTree = "<group>"; };
-		23FC43C796D0A913A54EF88E27B23786 /* PickerRowFormer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PickerRowFormer.swift; path = Former/RowFormers/PickerRowFormer.swift; sourceTree = "<group>"; };
-		2DB41FF729D93E3B1BC0FC9F273F4F2A /* Pods_Card_Keeper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Card_Keeper.framework; path = "Pods-Card Keeper.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		303C7B4B1EBE7A56443AFC1551298428 /* ViewFormer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ViewFormer.swift; path = Former/Commons/ViewFormer.swift; sourceTree = "<group>"; };
-		348D954C1C8B7C875EBDC46D4B69B5EC /* FormLabelHeaderView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormLabelHeaderView.swift; path = Former/Views/FormLabelHeaderView.swift; sourceTree = "<group>"; };
-		3C02680BBFFD6371BB844E98A2DD262E /* FormCheckCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormCheckCell.swift; path = Former/Cells/FormCheckCell.swift; sourceTree = "<group>"; };
-		3D97B39520F34E516257BF6974F63509 /* FormHeaderFooterView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormHeaderFooterView.swift; path = Former/Views/FormHeaderFooterView.swift; sourceTree = "<group>"; };
-		3E429995781D5B5FE3B5E764048AE400 /* Former.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Former.xcconfig; sourceTree = "<group>"; };
-		449FB69DD42CC529E5B3286448E6BAFF /* CheckRowFormer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CheckRowFormer.swift; path = Former/RowFormers/CheckRowFormer.swift; sourceTree = "<group>"; };
+		1975C3C5A85159E737A9720F08FCE499 /* IRLDocumentScanner.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IRLDocumentScanner.h; path = Source/IRLDocumentScanner.h; sourceTree = "<group>"; };
+		1F9100D66786C62F8B1F30783484E6D1 /* it.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = it.lproj; path = "Objective-C/TOCropViewController/it.lproj"; sourceTree = "<group>"; };
+		1FE51300AC49D61FDBB89DDE3553B015 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		2484D2773466C557247212A060183BCA /* FormTextViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormTextViewCell.swift; path = Former/Cells/FormTextViewCell.swift; sourceTree = "<group>"; };
+		27E44F9E951E9B41052395F6B5E7DA9E /* Pods_Card_Keeper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Card_Keeper.framework; path = "Pods-Card Keeper.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2910A8BCD980AC003AB98BB76E188219 /* zh-Hans.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = "zh-Hans.lproj"; path = "Objective-C/TOCropViewController/zh-Hans.lproj"; sourceTree = "<group>"; };
+		297B45CD8135EB415B76DDEF698369F5 /* tr.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = tr.lproj; path = "Objective-C/TOCropViewController/tr.lproj"; sourceTree = "<group>"; };
+		2B79F83FE02A421FCDA451A8384CD539 /* ms.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = ms.lproj; path = "Objective-C/TOCropViewController/ms.lproj"; sourceTree = "<group>"; };
+		2CD6F56C1E9EDDBC175AF7AC877D9E04 /* ViewFormer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ViewFormer.swift; path = Former/Commons/ViewFormer.swift; sourceTree = "<group>"; };
+		3277EFE7DEF81760E58BCCAAAF444A40 /* SwitchRowFormer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwitchRowFormer.swift; path = Former/RowFormers/SwitchRowFormer.swift; sourceTree = "<group>"; };
+		347CA395F4ABF55AE0AF87556A1A16A7 /* CIImage+Utilities.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CIImage+Utilities.m"; path = "Source/Private/CIImage+Utilities.m"; sourceTree = "<group>"; };
+		3921B9877980F0C9A97DFC0643701A1F /* TOCropViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TOCropViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C8847D125B7F49FD1EF709E6D2BC875 /* LabelRowFormer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LabelRowFormer.swift; path = Former/RowFormers/LabelRowFormer.swift; sourceTree = "<group>"; };
+		3CC932D0DF7963EE9608F1D892497384 /* FormSelectorDatePickerCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormSelectorDatePickerCell.swift; path = Former/Cells/FormSelectorDatePickerCell.swift; sourceTree = "<group>"; };
+		3CEFD9BF1C7783FE4D82C9C08115B30B /* IRLDocumentScanner-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IRLDocumentScanner-prefix.pch"; sourceTree = "<group>"; };
+		3FE8E004A7B55909B4CEA5D0F8328BE8 /* vi.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = vi.lproj; path = "Objective-C/TOCropViewController/vi.lproj"; sourceTree = "<group>"; };
+		41B5772E94E150DB2DB391D388E5B227 /* TOCropViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TOCropViewController.xcconfig; sourceTree = "<group>"; };
+		43E2E587D2147887D14610E3FBECDB80 /* IRLDocumentScanner.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IRLDocumentScanner.xcconfig; sourceTree = "<group>"; };
+		483FBF97CD6441CB4DCFED268ED35776 /* SelectorDatePickerRowFormer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SelectorDatePickerRowFormer.swift; path = Former/RowFormers/SelectorDatePickerRowFormer.swift; sourceTree = "<group>"; };
+		4859BB0EF2479A70531835A92C1EA93C /* TOCropViewController-Bridging-Header.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "TOCropViewController-Bridging-Header.h"; path = "Objective-C/TOCropViewController/TOCropViewController-Bridging-Header.h"; sourceTree = "<group>"; };
 		48F12948A1F644A413A509C366DAAA22 /* Pods-Card Keeper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Card Keeper.release.xcconfig"; sourceTree = "<group>"; };
-		4BC94B7A659EBF0B2ABA527A790E16F9 /* TextFieldRowFormer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextFieldRowFormer.swift; path = Former/RowFormers/TextFieldRowFormer.swift; sourceTree = "<group>"; };
-		51DCE8825FC0ACB2F17D880E7C98F361 /* LabelViewFormer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LabelViewFormer.swift; path = Former/ViewFormers/LabelViewFormer.swift; sourceTree = "<group>"; };
-		540D5794A8B70E35E429BDDEDA124100 /* Former.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Former.h; path = Former/Former.h; sourceTree = "<group>"; };
+		4A67AE99523C35333A7BDA01657EEAE2 /* pt.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = pt.lproj; path = "Objective-C/TOCropViewController/pt.lproj"; sourceTree = "<group>"; };
+		4B49EB6F17772E991FD1AAB1A9D5B86C /* SliderRowFormer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SliderRowFormer.swift; path = Former/RowFormers/SliderRowFormer.swift; sourceTree = "<group>"; };
+		4DC64853E449E59D8161E1EDDDAEAD7A /* DatePickerRowFormer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DatePickerRowFormer.swift; path = Former/RowFormers/DatePickerRowFormer.swift; sourceTree = "<group>"; };
+		4DD18A64C300ABF52226D9E37AE6B41F /* CIImage+Utilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CIImage+Utilities.h"; path = "Source/Private/CIImage+Utilities.h"; sourceTree = "<group>"; };
+		5132B9E784563F7046E69F8C18C7803A /* IRLDocumentScanner-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "IRLDocumentScanner-dummy.m"; sourceTree = "<group>"; };
+		53B9B38D4514145CD0DF964A9210690B /* TOCropScrollView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TOCropScrollView.h; path = "Objective-C/TOCropViewController/Views/TOCropScrollView.h"; sourceTree = "<group>"; };
+		54E26F10EB3D0878AF5C019419AE4B9D /* FormLabelFooterView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormLabelFooterView.swift; path = Former/Views/FormLabelFooterView.swift; sourceTree = "<group>"; };
+		5563382F41F9BF57EEDC8B1BBDF84A49 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/GLKit.framework; sourceTree = DEVELOPER_DIR; };
+		55F7736F5441275AE6272102734727CA /* FormViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormViewController.swift; path = Former/Controllers/FormViewController.swift; sourceTree = "<group>"; };
 		57A6FED03C1703BAA38435D8252D6EDD /* Pods-Card Keeper.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Card Keeper.modulemap"; sourceTree = "<group>"; };
-		5AE85A9C17202CC0C4F83132E2EB030C /* FormTextViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormTextViewCell.swift; path = Former/Cells/FormTextViewCell.swift; sourceTree = "<group>"; };
-		5C83221AE6AF2B44127689C892B0F0E8 /* CustomViewFormer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomViewFormer.swift; path = Former/ViewFormers/CustomViewFormer.swift; sourceTree = "<group>"; };
-		5E619CF17E6A41F9D1842DC165CEA542 /* Former.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Former.modulemap; sourceTree = "<group>"; };
-		60109CD819DF16B5CA6524F2590ED4DF /* BaseRowFormer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BaseRowFormer.swift; path = Former/RowFormers/BaseRowFormer.swift; sourceTree = "<group>"; };
+		5830F1C5DAA3D01E0A786F1449CA86DC /* BaseRowFormer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BaseRowFormer.swift; path = Former/RowFormers/BaseRowFormer.swift; sourceTree = "<group>"; };
+		5AA809717ACAF403E73D151FEB8D92F4 /* Former-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Former-umbrella.h"; sourceTree = "<group>"; };
+		5B8D2155839D0022FCFEC0697D6BE236 /* ResourceBundle-TOCropViewControllerBundle-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-TOCropViewControllerBundle-Info.plist"; sourceTree = "<group>"; };
+		5FAD5706252D32A7DA727C018E828F1A /* Former.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Former.swift; path = Former/Commons/Former.swift; sourceTree = "<group>"; };
 		62576AA1323139A7B490E657F3916E16 /* Pods-Card Keeper-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Card Keeper-acknowledgements.markdown"; sourceTree = "<group>"; };
-		6B07E01AD02C0CB40A72D8E8519074C5 /* FormSelectorDatePickerCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormSelectorDatePickerCell.swift; path = Former/Cells/FormSelectorDatePickerCell.swift; sourceTree = "<group>"; };
-		6DC16BE37DB60C747811E914A9990CCE /* FormTextFieldCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormTextFieldCell.swift; path = Former/Cells/FormTextFieldCell.swift; sourceTree = "<group>"; };
+		6490C8880B03C58C45B72D09974CBDCE /* LabelViewFormer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LabelViewFormer.swift; path = Former/ViewFormers/LabelViewFormer.swift; sourceTree = "<group>"; };
+		6732D028D11FD1BD23374E3DBE54ED89 /* TOActivityCroppedImageProvider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TOActivityCroppedImageProvider.m; path = "Objective-C/TOCropViewController/Models/TOActivityCroppedImageProvider.m"; sourceTree = "<group>"; };
+		674A5105085A5539CC4E11029B22D65D /* Former.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Former.h; path = Former/Former.h; sourceTree = "<group>"; };
 		70F9F6978609F9211B3655D83650801F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		77DE25B0ECE4A57347FE168D7E2B5CF8 /* Former-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Former-umbrella.h"; sourceTree = "<group>"; };
-		7D38CD998A25027317F90D59023CCDE3 /* FormViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormViewController.swift; path = Former/Controllers/FormViewController.swift; sourceTree = "<group>"; };
-		7DD462D9E30A49E6A9383DB6C248263A /* DatePickerRowFormer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DatePickerRowFormer.swift; path = Former/RowFormers/DatePickerRowFormer.swift; sourceTree = "<group>"; };
-		7E0471E118D7D7FB31C714CEAEC5C7CE /* RowFormer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RowFormer.swift; path = Former/Commons/RowFormer.swift; sourceTree = "<group>"; };
-		81E59754074EC42A5F4B5931A32A3DF2 /* CustomRowFormer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomRowFormer.swift; path = Former/RowFormers/CustomRowFormer.swift; sourceTree = "<group>"; };
-		865F8DCEEE8622000590DCE4DE6058F9 /* SwitchRowFormer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwitchRowFormer.swift; path = Former/RowFormers/SwitchRowFormer.swift; sourceTree = "<group>"; };
-		8831CD7B602D063BE98D5141AFABC13F /* SectionFormer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SectionFormer.swift; path = Former/Commons/SectionFormer.swift; sourceTree = "<group>"; };
-		9371182C3184235E81DC07AC2C368969 /* FormInlineDatePickerCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormInlineDatePickerCell.swift; path = Former/Cells/FormInlineDatePickerCell.swift; sourceTree = "<group>"; };
-		9371B3E5A2C772ED3204ED35AF4995C4 /* Former.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Former.framework; path = Former.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7201243BE2E699BA8527E1EEAEF3B73B /* StepperRowFormer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StepperRowFormer.swift; path = Former/RowFormers/StepperRowFormer.swift; sourceTree = "<group>"; };
+		75D9718476ECA16CEF18EB4FF4D9C03E /* TOCropView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TOCropView.h; path = "Objective-C/TOCropViewController/Views/TOCropView.h"; sourceTree = "<group>"; };
+		773CA33BEF1E49ED3D95CB1751A81048 /* de.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = de.lproj; path = "Objective-C/TOCropViewController/de.lproj"; sourceTree = "<group>"; };
+		78DD0F93468030DF9CB7B8D8D4B6677A /* FormSwitchCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormSwitchCell.swift; path = Former/Cells/FormSwitchCell.swift; sourceTree = "<group>"; };
+		7F52AA58417A6472C8259FC80D549D72 /* CIRectangleFeature+Utilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CIRectangleFeature+Utilities.h"; path = "Source/Private/CIRectangleFeature+Utilities.h"; sourceTree = "<group>"; };
+		812CAC731017EF9DD07EF50450237A49 /* FormInlineDatePickerCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormInlineDatePickerCell.swift; path = Former/Cells/FormInlineDatePickerCell.swift; sourceTree = "<group>"; };
+		82286DE9903479FAB83CFBBB48D655A8 /* TOCropViewControllerTransitioning.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TOCropViewControllerTransitioning.h; path = "Objective-C/TOCropViewController/Models/TOCropViewControllerTransitioning.h"; sourceTree = "<group>"; };
+		83A83E9A76C28A7F591821B9D7D58D2F /* TextFieldRowFormer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextFieldRowFormer.swift; path = Former/RowFormers/TextFieldRowFormer.swift; sourceTree = "<group>"; };
+		84A86294F0409E7BC6F04B314B77F488 /* en.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = en.lproj; path = "Objective-C/TOCropViewController/en.lproj"; sourceTree = "<group>"; };
+		85FDF489B2552AC2AA427DC43E1E64C8 /* TOCropViewControllerTransitioning.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TOCropViewControllerTransitioning.m; path = "Objective-C/TOCropViewController/Models/TOCropViewControllerTransitioning.m"; sourceTree = "<group>"; };
+		866BFC8DA8691F072D6F48EBC4E86D4C /* FormSelectorPickerCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormSelectorPickerCell.swift; path = Former/Cells/FormSelectorPickerCell.swift; sourceTree = "<group>"; };
+		8C9BC47D13D520AF8E9440DF9CF22C07 /* TOCropViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TOCropViewController.h; path = "Objective-C/TOCropViewController/TOCropViewController.h"; sourceTree = "<group>"; };
+		8D8AB1CB1BF189D9134ABA2FD4D3BB0D /* FormStepperCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormStepperCell.swift; path = Former/Cells/FormStepperCell.swift; sourceTree = "<group>"; };
+		936F5680FF5D3DD12F533442D69DEFEF /* CustomRowFormer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomRowFormer.swift; path = Former/RowFormers/CustomRowFormer.swift; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9718C3B617E2D4B77A197EF18C946892 /* FormStepperCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormStepperCell.swift; path = Former/Cells/FormStepperCell.swift; sourceTree = "<group>"; };
-		97E7F6ED11EEC5354C85771E21843C01 /* FormerProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormerProtocol.swift; path = Former/Commons/FormerProtocol.swift; sourceTree = "<group>"; };
-		99CFECF94D29CF7EB426EAAE056EBCC7 /* FormPickerCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormPickerCell.swift; path = Former/Cells/FormPickerCell.swift; sourceTree = "<group>"; };
-		A2292813BB2E5F75BBFC05EEB2D9810C /* FormLabelCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormLabelCell.swift; path = Former/Cells/FormLabelCell.swift; sourceTree = "<group>"; };
-		A2CDB8C56D8B92B30EA045742ED6B0F8 /* FormLabelFooterView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormLabelFooterView.swift; path = Former/Views/FormLabelFooterView.swift; sourceTree = "<group>"; };
-		AA241A9EEEC2B272B011FE721F674272 /* InlineDatePickerRowFormer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InlineDatePickerRowFormer.swift; path = Former/RowFormers/InlineDatePickerRowFormer.swift; sourceTree = "<group>"; };
-		AB7A3E790C9E6E7187A7306741E57082 /* BaseViewFormer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BaseViewFormer.swift; path = Former/ViewFormers/BaseViewFormer.swift; sourceTree = "<group>"; };
-		AB7EAB9B3C79D9A0BE94CE759584154F /* Former-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Former-prefix.pch"; sourceTree = "<group>"; };
-		AF2DBD328A5C0650084CC7C5F78CF43D /* InlinePickerRowFormer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InlinePickerRowFormer.swift; path = Former/RowFormers/InlinePickerRowFormer.swift; sourceTree = "<group>"; };
-		B3E57E8E7D1B6B67C71D323B5F77F8CF /* Former-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Former-dummy.m"; sourceTree = "<group>"; };
-		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		B9AAD66C4F6FA860365C8985D7E2613A /* TextViewRowFormer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextViewRowFormer.swift; path = Former/RowFormers/TextViewRowFormer.swift; sourceTree = "<group>"; };
+		95EF99CC58B905AD090F12094E387AB0 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreImage.framework; sourceTree = DEVELOPER_DIR; };
+		974BBDA15A72DD93CA560724DF94531B /* ja.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = ja.lproj; path = "Objective-C/TOCropViewController/ja.lproj"; sourceTree = "<group>"; };
+		986441D7916B8FEDFEBC57B1A022BC18 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98CC005AD34A8CF5CB765B423DA73A2D /* Former.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Former.xcconfig; sourceTree = "<group>"; };
+		9994F2D4F0027C10B133449414F94859 /* TOCropToolbar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TOCropToolbar.h; path = "Objective-C/TOCropViewController/Views/TOCropToolbar.h"; sourceTree = "<group>"; };
+		9A4B0DC92BF8D71A82E1BF13D3CD2CCB /* TOCropViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TOCropViewController.modulemap; sourceTree = "<group>"; };
+		9B22A596D66F85F8DF952F97657D9D19 /* IRLDocumentScanner.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = IRLDocumentScanner.modulemap; sourceTree = "<group>"; };
+		9DDD46AB0CD23ED4A40FB0BE7E9866E2 /* Former.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Former.framework; path = Former.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E884BF8F3AE3939C5BEFCB87BFEA5AA /* Former.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Former.modulemap; sourceTree = "<group>"; };
+		9E9EFA699E3D43F9DACDB1DC85C4698A /* CheckRowFormer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CheckRowFormer.swift; path = Former/RowFormers/CheckRowFormer.swift; sourceTree = "<group>"; };
+		9ED689372B691FFE08807F84CF564C8E /* TextViewRowFormer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextViewRowFormer.swift; path = Former/RowFormers/TextViewRowFormer.swift; sourceTree = "<group>"; };
+		9F80DCBA36A1770D44C6BF38E507F252 /* FormLabelCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormLabelCell.swift; path = Former/Cells/FormLabelCell.swift; sourceTree = "<group>"; };
+		A3C90CCF6DF978A38FBC09E96B98FFBE /* TOCroppedImageAttributes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TOCroppedImageAttributes.h; path = "Objective-C/TOCropViewController/Models/TOCroppedImageAttributes.h"; sourceTree = "<group>"; };
+		A643375DC26773CC7BF637D38255655D /* fr.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = fr.lproj; path = "Objective-C/TOCropViewController/fr.lproj"; sourceTree = "<group>"; };
+		A66C819978965DE84B1848ABEFDD7B0E /* UIButton+Extensions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+Extensions.m"; path = "Source/Private/UIButton+Extensions.m"; sourceTree = "<group>"; };
+		AB26B2E9F547F85E3F6C97EB1B8D6874 /* TOCropViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TOCropViewController-umbrella.h"; sourceTree = "<group>"; };
+		AD0B27CE1BF1BBF34D34A1412735A822 /* TOCropViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TOCropViewController.framework; path = TOCropViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE7F010C628595ED56A9CD53A2D29649 /* Base.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = Base.lproj; path = "Objective-C/TOCropViewController/Base.lproj"; sourceTree = "<group>"; };
+		B32376BC3E27ABC2CDA3E86557E306A8 /* CustomViewFormer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomViewFormer.swift; path = Former/ViewFormers/CustomViewFormer.swift; sourceTree = "<group>"; };
+		B7516A087DE4EC63F3EF910CFE6E82BD /* PickerRowFormer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PickerRowFormer.swift; path = Former/RowFormers/PickerRowFormer.swift; sourceTree = "<group>"; };
+		B83BAC23FCEED0EC2D470C3DC862E9BC /* pl.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = pl.lproj; path = "Objective-C/TOCropViewController/pl.lproj"; sourceTree = "<group>"; };
+		B9CE74C38C91E7EDE38B6FEF6219ED2C /* SectionFormer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SectionFormer.swift; path = Former/Commons/SectionFormer.swift; sourceTree = "<group>"; };
+		BA46640F6DC949B00B6371DEDAE8E418 /* TOCropViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TOCropViewController-dummy.m"; sourceTree = "<group>"; };
+		BA6ABC7F1EBB265D411A7438DC8F0527 /* CIRectangleFeature+Utilities.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CIRectangleFeature+Utilities.m"; path = "Source/Private/CIRectangleFeature+Utilities.m"; sourceTree = "<group>"; };
+		BC7A49661F54DA4A78B4B37C8B40E908 /* BaseViewFormer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BaseViewFormer.swift; path = Former/ViewFormers/BaseViewFormer.swift; sourceTree = "<group>"; };
+		BD97FE5746659C5137B02454F4DFFD7F /* Former-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Former-prefix.pch"; sourceTree = "<group>"; };
+		BEDF29FDFB39405D15E68BB7E16C9ECF /* FormInlinePickerCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormInlinePickerCell.swift; path = Former/Cells/FormInlinePickerCell.swift; sourceTree = "<group>"; };
+		BEE86B3891A82CDAEE09F43A75ED7273 /* FormSegmentedCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormSegmentedCell.swift; path = Former/Cells/FormSegmentedCell.swift; sourceTree = "<group>"; };
+		BFE03DE3BB649243B4E75789B4E7C962 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		BFF49C4EAB15A53D40E781CBB7207899 /* UIImage+CropRotate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+CropRotate.h"; path = "Objective-C/TOCropViewController/Models/UIImage+CropRotate.h"; sourceTree = "<group>"; };
+		C04EA2FB93A6F5F7A420ED2CCD3B9FFD /* IRLCameraView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IRLCameraView.h; path = Source/Private/IRLCameraView.h; sourceTree = "<group>"; };
+		C2D7A81566D53823AE6A1A52168651C5 /* da.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = da.lproj; path = "Objective-C/TOCropViewController/da.lproj"; sourceTree = "<group>"; };
+		C399B499EA13E470E943351FACAF068E /* UIImage+CropRotate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+CropRotate.m"; path = "Objective-C/TOCropViewController/Models/UIImage+CropRotate.m"; sourceTree = "<group>"; };
+		C6679545336C302D6F5C4F16D7747650 /* FormPickerCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormPickerCell.swift; path = Former/Cells/FormPickerCell.swift; sourceTree = "<group>"; };
 		C6A85D07C17103F98124E6421E5972F6 /* Pods-Card Keeper-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Card Keeper-acknowledgements.plist"; sourceTree = "<group>"; };
+		C8796E1E7BCAD993F44B5C4862BCBC01 /* TOActivityCroppedImageProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TOActivityCroppedImageProvider.h; path = "Objective-C/TOCropViewController/Models/TOActivityCroppedImageProvider.h"; sourceTree = "<group>"; };
+		CA6CE765FF08B7AE8A6C181AAF271BC6 /* IRLDocumentScanner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = IRLDocumentScanner.framework; path = IRLDocumentScanner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA7C7E969BA9E957A19F5F6722E4A697 /* TOCropScrollView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TOCropScrollView.m; path = "Objective-C/TOCropViewController/Views/TOCropScrollView.m"; sourceTree = "<group>"; };
+		CD9518C9AABDAFCAEBD0CC60AA4F999D /* ru.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = ru.lproj; path = "Objective-C/TOCropViewController/ru.lproj"; sourceTree = "<group>"; };
+		CFB92FF7747B4E6CBE64F6B35A8B1E5A /* Former-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Former-dummy.m"; sourceTree = "<group>"; };
+		D22CEE5F6AACA444DF144D2F0B006F5C /* es.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = es.lproj; path = "Objective-C/TOCropViewController/es.lproj"; sourceTree = "<group>"; };
+		D2F54E5ADBBE7C8C2880FCD61500F184 /* zh-Hant.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = "zh-Hant.lproj"; path = "Objective-C/TOCropViewController/zh-Hant.lproj"; sourceTree = "<group>"; };
 		D36AEA26C659C4056D06F485B51B9DD2 /* Pods-Card Keeper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Card Keeper.debug.xcconfig"; sourceTree = "<group>"; };
-		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D43A32EF97127EFAF909F2A5E06EFB43 /* ar.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = ar.lproj; path = "Objective-C/TOCropViewController/ar.lproj"; sourceTree = "<group>"; };
+		D48ED4BD9F09B1A3597722C70BE69469 /* InlinePickerRowFormer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InlinePickerRowFormer.swift; path = Former/RowFormers/InlinePickerRowFormer.swift; sourceTree = "<group>"; };
+		D558119C5C091FF37BAFA812F4C4F6EC /* TOCropToolbar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TOCropToolbar.m; path = "Objective-C/TOCropViewController/Views/TOCropToolbar.m"; sourceTree = "<group>"; };
+		D5F511DD71E5A730E0F381C1DDC7B607 /* TOCropView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TOCropView.m; path = "Objective-C/TOCropViewController/Views/TOCropView.m"; sourceTree = "<group>"; };
+		D73E0495C9C2ACC13CBF4A99BB359879 /* TOCropOverlayView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TOCropOverlayView.h; path = "Objective-C/TOCropViewController/Views/TOCropOverlayView.h"; sourceTree = "<group>"; };
+		D7A963ECED9F20CE1C65513521795DBE /* FormHeaderFooterView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormHeaderFooterView.swift; path = Former/Views/FormHeaderFooterView.swift; sourceTree = "<group>"; };
+		D8DE7FC04C8780E2465BC2975D45C5D2 /* UITableViewCell+Former.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITableViewCell+Former.swift"; path = "Former/Helpers/UITableViewCell+Former.swift"; sourceTree = "<group>"; };
 		D98CB6E8AFD8D77F20C14D711A8D4990 /* Pods-Card Keeper-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Card Keeper-resources.sh"; sourceTree = "<group>"; };
-		DEC4C0A6D1127A6C2E5FC9E25233C355 /* SliderRowFormer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SliderRowFormer.swift; path = Former/RowFormers/SliderRowFormer.swift; sourceTree = "<group>"; };
-		E4F7D05195CA27B9196DBD3717795D92 /* FormCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormCell.swift; path = Former/Cells/FormCell.swift; sourceTree = "<group>"; };
-		E5A8CD911003D94FE86E5D0260A308E0 /* LabelRowFormer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LabelRowFormer.swift; path = Former/RowFormers/LabelRowFormer.swift; sourceTree = "<group>"; };
-		EC71D09AF1774679CC8F9C7829131A7B /* UITableViewCell+Former.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITableViewCell+Former.swift"; path = "Former/Helpers/UITableViewCell+Former.swift"; sourceTree = "<group>"; };
-		ED5AE7BCA40FEEE96BA2BE1AA9FFD911 /* FormSwitchCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormSwitchCell.swift; path = Former/Cells/FormSwitchCell.swift; sourceTree = "<group>"; };
-		EE7481D8A322528FD913CA1C85F2C824 /* SelectorPickerRowFormer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SelectorPickerRowFormer.swift; path = Former/RowFormers/SelectorPickerRowFormer.swift; sourceTree = "<group>"; };
-		F61B5AA9FED05038393A497EEA19E612 /* FormDatePickerCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormDatePickerCell.swift; path = Former/Cells/FormDatePickerCell.swift; sourceTree = "<group>"; };
-		FB385E14A647DCA4632D602884C204FF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBADE37A326C3FF9641C706007FEC254 /* UIButton+Extensions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+Extensions.h"; path = "Source/Private/UIButton+Extensions.h"; sourceTree = "<group>"; };
+		DCF8CC2B8F9BE97BE0EA7055185675EC /* FormerProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormerProtocol.swift; path = Former/Commons/FormerProtocol.swift; sourceTree = "<group>"; };
+		DE63A25FD8BE7B005BDA4059E5B843CE /* IRLScannerViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IRLScannerViewController.m; path = Source/Public/IRLScannerViewController.m; sourceTree = "<group>"; };
+		E2EA44FB4B81C922BC56D444144C12CC /* InlineDatePickerRowFormer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InlineDatePickerRowFormer.swift; path = Former/RowFormers/InlineDatePickerRowFormer.swift; sourceTree = "<group>"; };
+		E4546967B4698318CDE2D994002E91F2 /* IRLDocumentScanner-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IRLDocumentScanner-umbrella.h"; sourceTree = "<group>"; };
+		E5F43669F662894C3A954A18657AEBBA /* IRLCameraView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IRLCameraView.m; path = Source/Private/IRLCameraView.m; sourceTree = "<group>"; };
+		EDDA96500E767535CA9E4B91EDF5C9E8 /* RowFormer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RowFormer.swift; path = Former/Commons/RowFormer.swift; sourceTree = "<group>"; };
+		EE6337947C72EB60749FE1B7BFAFEDF7 /* FormCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormCell.swift; path = Former/Cells/FormCell.swift; sourceTree = "<group>"; };
+		EE80748F2043C80E13506BBC1E362950 /* TOCropViewControllerBundle.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = TOCropViewControllerBundle.bundle; path = "TOCropViewController-TOCropViewControllerBundle.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFC5802F8E4DF6CD9ECCF8C7C2332932 /* FormTextFieldCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormTextFieldCell.swift; path = Former/Cells/FormTextFieldCell.swift; sourceTree = "<group>"; };
+		F1690AC70A571D1525431ED99FAD236F /* FormDatePickerCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormDatePickerCell.swift; path = Former/Cells/FormDatePickerCell.swift; sourceTree = "<group>"; };
+		F2C8D3B140055F4B05B53C68902512F7 /* IRLCamera.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; path = IRLCamera.storyboard; sourceTree = "<group>"; };
+		F345F43C1FE428F5609A09EC5922DB32 /* FormLabelHeaderView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormLabelHeaderView.swift; path = Former/Views/FormLabelHeaderView.swift; sourceTree = "<group>"; };
+		F4809E3E1EC4831447331E8D4C318D93 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F54CC7D9A6C85620C410290A80B58559 /* nl.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = nl.lproj; path = "Objective-C/TOCropViewController/nl.lproj"; sourceTree = "<group>"; };
+		F61FAF85F1B19C7C4314B9D0BBD2B7AF /* TOCropOverlayView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TOCropOverlayView.m; path = "Objective-C/TOCropViewController/Views/TOCropOverlayView.m"; sourceTree = "<group>"; };
+		F6B718446E4CC747F56215DD177554FC /* IRLCameraMedia.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = IRLCameraMedia.xcassets; sourceTree = "<group>"; };
+		F7CF7C635DFB650BC5206A75E3A6814F /* ko.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = ko.lproj; path = "Objective-C/TOCropViewController/ko.lproj"; sourceTree = "<group>"; };
+		F8DFE897ACCCDA8F0C45084D7F508C4B /* SegmentedRowFormer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SegmentedRowFormer.swift; path = Former/RowFormers/SegmentedRowFormer.swift; sourceTree = "<group>"; };
+		FA5CC127FC41E663BC0C54CD2CC5E8B1 /* FormSliderCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormSliderCell.swift; path = Former/Cells/FormSliderCell.swift; sourceTree = "<group>"; };
+		FCE89BC9943CA1CBB2D2F637F60D1555 /* SelectorPickerRowFormer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SelectorPickerRowFormer.swift; path = Former/RowFormers/SelectorPickerRowFormer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,44 +314,152 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6B77ABF53AACDB4BCF64C9E36C353202 /* Frameworks */ = {
+		2705942C10A60F2448047F14943513FE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6DA4F9CD1982D1DBC04997C17A93BE8C /* Foundation.framework in Frameworks */,
+				E297E66E752D180A43C8E20C3134AECB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B89900FD09FDDFF253118FE75950D8F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75FB99C5537ADA161EA4EE2512478371 /* AVFoundation.framework in Frameworks */,
+				504D4212E8FE51E90B657B242BD37BC9 /* CoreImage.framework in Frameworks */,
+				069FA1D5F251F97C2DC80BFD52D47D45 /* Foundation.framework in Frameworks */,
+				B43AAA30308710C5AB60767BB2F1BE2E /* GLKit.framework in Frameworks */,
+				286E1811859332B20F918AD891B2853F /* TOCropViewController.framework in Frameworks */,
+				815583DEF588DE88D2083C1A659FA74F /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB0C010DD77F046B8F813BCB8CDD1CF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFE201BB48EB1B4A20C510F70575DE3F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF7BCBCBAEBC123C9B57757D1FCC1DCB /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1D0A71F0121BCAC84B891CDE3941C961 /* Support Files */ = {
+		08C213C8F16319AD7350539445736BB8 /* TOCropViewController */ = {
 			isa = PBXGroup;
 			children = (
-				5E619CF17E6A41F9D1842DC165CEA542 /* Former.modulemap */,
-				3E429995781D5B5FE3B5E764048AE400 /* Former.xcconfig */,
-				B3E57E8E7D1B6B67C71D323B5F77F8CF /* Former-dummy.m */,
-				AB7EAB9B3C79D9A0BE94CE759584154F /* Former-prefix.pch */,
-				77DE25B0ECE4A57347FE168D7E2B5CF8 /* Former-umbrella.h */,
-				FB385E14A647DCA4632D602884C204FF /* Info.plist */,
+				C8796E1E7BCAD993F44B5C4862BCBC01 /* TOActivityCroppedImageProvider.h */,
+				6732D028D11FD1BD23374E3DBE54ED89 /* TOActivityCroppedImageProvider.m */,
+				D73E0495C9C2ACC13CBF4A99BB359879 /* TOCropOverlayView.h */,
+				F61FAF85F1B19C7C4314B9D0BBD2B7AF /* TOCropOverlayView.m */,
+				A3C90CCF6DF978A38FBC09E96B98FFBE /* TOCroppedImageAttributes.h */,
+				019F6F17A40468E2BA574F31A23EF106 /* TOCroppedImageAttributes.m */,
+				53B9B38D4514145CD0DF964A9210690B /* TOCropScrollView.h */,
+				CA7C7E969BA9E957A19F5F6722E4A697 /* TOCropScrollView.m */,
+				9994F2D4F0027C10B133449414F94859 /* TOCropToolbar.h */,
+				D558119C5C091FF37BAFA812F4C4F6EC /* TOCropToolbar.m */,
+				75D9718476ECA16CEF18EB4FF4D9C03E /* TOCropView.h */,
+				D5F511DD71E5A730E0F381C1DDC7B607 /* TOCropView.m */,
+				8C9BC47D13D520AF8E9440DF9CF22C07 /* TOCropViewController.h */,
+				093CB9E778D6B82E382B336DD6629EFE /* TOCropViewController.m */,
+				4859BB0EF2479A70531835A92C1EA93C /* TOCropViewController-Bridging-Header.h */,
+				82286DE9903479FAB83CFBBB48D655A8 /* TOCropViewControllerTransitioning.h */,
+				85FDF489B2552AC2AA427DC43E1E64C8 /* TOCropViewControllerTransitioning.m */,
+				BFF49C4EAB15A53D40E781CBB7207899 /* UIImage+CropRotate.h */,
+				C399B499EA13E470E943351FACAF068E /* UIImage+CropRotate.m */,
+				2D4FC716600CAD26A4C655CBE180C9B3 /* Resources */,
+				F16209CC4BC6FB9B7ECC12F3B59B901D /* Support Files */,
+			);
+			name = TOCropViewController;
+			path = TOCropViewController;
+			sourceTree = "<group>";
+		};
+		13CD71EBC7E9CDDAF9D8DFD14E39DFE5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9E884BF8F3AE3939C5BEFCB87BFEA5AA /* Former.modulemap */,
+				98CC005AD34A8CF5CB765B423DA73A2D /* Former.xcconfig */,
+				CFB92FF7747B4E6CBE64F6B35A8B1E5A /* Former-dummy.m */,
+				BD97FE5746659C5137B02454F4DFFD7F /* Former-prefix.pch */,
+				5AA809717ACAF403E73D151FEB8D92F4 /* Former-umbrella.h */,
+				0F378575934F0F49D655ED8F63B90D19 /* Info.plist */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/Former";
 			sourceTree = "<group>";
 		};
-		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+		16B363832E72B8ED22A6B32676AD435C /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				438B396F6B4147076630CAEFE34282C1 /* iOS */,
+				D54FAFEDF4EF35EB57DB509600577757 /* Former */,
+				66ECC7F6C880B78CC89C0AD873C26FAD /* IRLDocumentScanner */,
+				08C213C8F16319AD7350539445736BB8 /* TOCropViewController */,
 			);
-			name = Frameworks;
+			name = Pods;
 			sourceTree = "<group>";
 		};
-		438B396F6B4147076630CAEFE34282C1 /* iOS */ = {
+		2D4FC716600CAD26A4C655CBE180C9B3 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */,
-				B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */,
+				D43A32EF97127EFAF909F2A5E06EFB43 /* ar.lproj */,
+				AE7F010C628595ED56A9CD53A2D29649 /* Base.lproj */,
+				C2D7A81566D53823AE6A1A52168651C5 /* da.lproj */,
+				773CA33BEF1E49ED3D95CB1751A81048 /* de.lproj */,
+				84A86294F0409E7BC6F04B314B77F488 /* en.lproj */,
+				D22CEE5F6AACA444DF144D2F0B006F5C /* es.lproj */,
+				A643375DC26773CC7BF637D38255655D /* fr.lproj */,
+				0AEAB4547FE5B4A8FDB2D6E0FE95B739 /* id.lproj */,
+				1F9100D66786C62F8B1F30783484E6D1 /* it.lproj */,
+				974BBDA15A72DD93CA560724DF94531B /* ja.lproj */,
+				F7CF7C635DFB650BC5206A75E3A6814F /* ko.lproj */,
+				2B79F83FE02A421FCDA451A8384CD539 /* ms.lproj */,
+				F54CC7D9A6C85620C410290A80B58559 /* nl.lproj */,
+				B83BAC23FCEED0EC2D470C3DC862E9BC /* pl.lproj */,
+				4A67AE99523C35333A7BDA01657EEAE2 /* pt.lproj */,
+				CD9518C9AABDAFCAEBD0CC60AA4F999D /* ru.lproj */,
+				297B45CD8135EB415B76DDEF698369F5 /* tr.lproj */,
+				3FE8E004A7B55909B4CEA5D0F8328BE8 /* vi.lproj */,
+				2910A8BCD980AC003AB98BB76E188219 /* zh-Hans.lproj */,
+				D2F54E5ADBBE7C8C2880FCD61500F184 /* zh-Hant.lproj */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		50B8FE28C0BF9EC2C786D835D1592332 /* Default */ = {
+			isa = PBXGroup;
+			children = (
+				4DD18A64C300ABF52226D9E37AE6B41F /* CIImage+Utilities.h */,
+				347CA395F4ABF55AE0AF87556A1A16A7 /* CIImage+Utilities.m */,
+				7F52AA58417A6472C8259FC80D549D72 /* CIRectangleFeature+Utilities.h */,
+				BA6ABC7F1EBB265D411A7438DC8F0527 /* CIRectangleFeature+Utilities.m */,
+				C04EA2FB93A6F5F7A420ED2CCD3B9FFD /* IRLCameraView.h */,
+				E5F43669F662894C3A954A18657AEBBA /* IRLCameraView.m */,
+				1975C3C5A85159E737A9720F08FCE499 /* IRLDocumentScanner.h */,
+				1307C4B40FF61B6A0237D30866CBCBCA /* IRLScannerViewController.h */,
+				DE63A25FD8BE7B005BDA4059E5B843CE /* IRLScannerViewController.m */,
+				DBADE37A326C3FF9641C706007FEC254 /* UIButton+Extensions.h */,
+				A66C819978965DE84B1848ABEFDD7B0E /* UIButton+Extensions.m */,
+				9F9ED3105AFD097FA98EA3B92DF59BC2 /* Resources */,
+			);
+			name = Default;
+			sourceTree = "<group>";
+		};
+		51626D9D8AA1FAF5A30FCD7E60199FD5 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				0BD2785375FD824B2C08468B3D6F2009 /* AVFoundation.framework */,
+				95EF99CC58B905AD090F12094E387AB0 /* CoreImage.framework */,
+				BFE03DE3BB649243B4E75789B4E7C962 /* Foundation.framework */,
+				5563382F41F9BF57EEDC8B1BBDF84A49 /* GLKit.framework */,
+				1FE51300AC49D61FDBB89DDE3553B015 /* UIKit.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
@@ -200,86 +472,111 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		593B206CDC6642FE7A427FF86C2222BD /* Former */ = {
+		66ECC7F6C880B78CC89C0AD873C26FAD /* IRLDocumentScanner */ = {
 			isa = PBXGroup;
 			children = (
-				60109CD819DF16B5CA6524F2590ED4DF /* BaseRowFormer.swift */,
-				AB7A3E790C9E6E7187A7306741E57082 /* BaseViewFormer.swift */,
-				449FB69DD42CC529E5B3286448E6BAFF /* CheckRowFormer.swift */,
-				81E59754074EC42A5F4B5931A32A3DF2 /* CustomRowFormer.swift */,
-				5C83221AE6AF2B44127689C892B0F0E8 /* CustomViewFormer.swift */,
-				7DD462D9E30A49E6A9383DB6C248263A /* DatePickerRowFormer.swift */,
-				E4F7D05195CA27B9196DBD3717795D92 /* FormCell.swift */,
-				3C02680BBFFD6371BB844E98A2DD262E /* FormCheckCell.swift */,
-				F61B5AA9FED05038393A497EEA19E612 /* FormDatePickerCell.swift */,
-				540D5794A8B70E35E429BDDEDA124100 /* Former.h */,
-				21AFFC769C21DFEE704BEBCBCAD626A1 /* Former.swift */,
-				97E7F6ED11EEC5354C85771E21843C01 /* FormerProtocol.swift */,
-				3D97B39520F34E516257BF6974F63509 /* FormHeaderFooterView.swift */,
-				9371182C3184235E81DC07AC2C368969 /* FormInlineDatePickerCell.swift */,
-				0038A78A0EB76D20D4CDE16502A1F2AC /* FormInlinePickerCell.swift */,
-				A2292813BB2E5F75BBFC05EEB2D9810C /* FormLabelCell.swift */,
-				A2CDB8C56D8B92B30EA045742ED6B0F8 /* FormLabelFooterView.swift */,
-				348D954C1C8B7C875EBDC46D4B69B5EC /* FormLabelHeaderView.swift */,
-				99CFECF94D29CF7EB426EAAE056EBCC7 /* FormPickerCell.swift */,
-				19D1CEEC8A262F599C40514EF365CE6E /* FormSegmentedCell.swift */,
-				6B07E01AD02C0CB40A72D8E8519074C5 /* FormSelectorDatePickerCell.swift */,
-				1EC7D596D551807E46EFC51513261689 /* FormSelectorPickerCell.swift */,
-				0A8BCAE9CC9276B5348DAD5165FA8348 /* FormSliderCell.swift */,
-				9718C3B617E2D4B77A197EF18C946892 /* FormStepperCell.swift */,
-				ED5AE7BCA40FEEE96BA2BE1AA9FFD911 /* FormSwitchCell.swift */,
-				6DC16BE37DB60C747811E914A9990CCE /* FormTextFieldCell.swift */,
-				5AE85A9C17202CC0C4F83132E2EB030C /* FormTextViewCell.swift */,
-				7D38CD998A25027317F90D59023CCDE3 /* FormViewController.swift */,
-				AA241A9EEEC2B272B011FE721F674272 /* InlineDatePickerRowFormer.swift */,
-				AF2DBD328A5C0650084CC7C5F78CF43D /* InlinePickerRowFormer.swift */,
-				E5A8CD911003D94FE86E5D0260A308E0 /* LabelRowFormer.swift */,
-				51DCE8825FC0ACB2F17D880E7C98F361 /* LabelViewFormer.swift */,
-				23FC43C796D0A913A54EF88E27B23786 /* PickerRowFormer.swift */,
-				7E0471E118D7D7FB31C714CEAEC5C7CE /* RowFormer.swift */,
-				8831CD7B602D063BE98D5141AFABC13F /* SectionFormer.swift */,
-				02DC832ECD07CC04A199EE8437856F22 /* SegmentedRowFormer.swift */,
-				1DDE3BF0869797E18D19BF993A4CCFA1 /* SelectorDatePickerRowFormer.swift */,
-				EE7481D8A322528FD913CA1C85F2C824 /* SelectorPickerRowFormer.swift */,
-				DEC4C0A6D1127A6C2E5FC9E25233C355 /* SliderRowFormer.swift */,
-				088A29B593CD269C4C4B2F6B756C658A /* StepperRowFormer.swift */,
-				865F8DCEEE8622000590DCE4DE6058F9 /* SwitchRowFormer.swift */,
-				4BC94B7A659EBF0B2ABA527A790E16F9 /* TextFieldRowFormer.swift */,
-				B9AAD66C4F6FA860365C8985D7E2613A /* TextViewRowFormer.swift */,
-				EC71D09AF1774679CC8F9C7829131A7B /* UITableViewCell+Former.swift */,
-				303C7B4B1EBE7A56443AFC1551298428 /* ViewFormer.swift */,
-				1D0A71F0121BCAC84B891CDE3941C961 /* Support Files */,
+				50B8FE28C0BF9EC2C786D835D1592332 /* Default */,
+				6E3FB72CEE19364CAA0BAC86663D260D /* Support Files */,
 			);
-			name = Former;
-			path = Former;
+			name = IRLDocumentScanner;
+			path = IRLDocumentScanner;
+			sourceTree = "<group>";
+		};
+		6E3FB72CEE19364CAA0BAC86663D260D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				986441D7916B8FEDFEBC57B1A022BC18 /* Info.plist */,
+				9B22A596D66F85F8DF952F97657D9D19 /* IRLDocumentScanner.modulemap */,
+				43E2E587D2147887D14610E3FBECDB80 /* IRLDocumentScanner.xcconfig */,
+				5132B9E784563F7046E69F8C18C7803A /* IRLDocumentScanner-dummy.m */,
+				3CEFD9BF1C7783FE4D82C9C08115B30B /* IRLDocumentScanner-prefix.pch */,
+				E4546967B4698318CDE2D994002E91F2 /* IRLDocumentScanner-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/IRLDocumentScanner";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
-				CD1E1E2AF962D8024B5F4E01B4456E1A /* Pods */,
-				985EF2875467AB90777150D68AA0A7BB /* Products */,
+				8A0E1FDEADE802CEBDCAA10CA39E897D /* Frameworks */,
+				16B363832E72B8ED22A6B32676AD435C /* Pods */,
+				EDC0C07FD9D67C1BC1F984DA43A46BB3 /* Products */,
 				55A2B1BF7489B47C73D385A82D8A7B2A /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		985EF2875467AB90777150D68AA0A7BB /* Products */ = {
+		8A0E1FDEADE802CEBDCAA10CA39E897D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				9371B3E5A2C772ED3204ED35AF4995C4 /* Former.framework */,
-				2DB41FF729D93E3B1BC0FC9F273F4F2A /* Pods_Card_Keeper.framework */,
+				3921B9877980F0C9A97DFC0643701A1F /* TOCropViewController.framework */,
+				51626D9D8AA1FAF5A30FCD7E60199FD5 /* iOS */,
 			);
-			name = Products;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		CD1E1E2AF962D8024B5F4E01B4456E1A /* Pods */ = {
+		9F9ED3105AFD097FA98EA3B92DF59BC2 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				593B206CDC6642FE7A427FF86C2222BD /* Former */,
+				F2C8D3B140055F4B05B53C68902512F7 /* IRLCamera.storyboard */,
+				F6B718446E4CC747F56215DD177554FC /* IRLCameraMedia.xcassets */,
 			);
-			name = Pods;
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		D54FAFEDF4EF35EB57DB509600577757 /* Former */ = {
+			isa = PBXGroup;
+			children = (
+				5830F1C5DAA3D01E0A786F1449CA86DC /* BaseRowFormer.swift */,
+				BC7A49661F54DA4A78B4B37C8B40E908 /* BaseViewFormer.swift */,
+				9E9EFA699E3D43F9DACDB1DC85C4698A /* CheckRowFormer.swift */,
+				936F5680FF5D3DD12F533442D69DEFEF /* CustomRowFormer.swift */,
+				B32376BC3E27ABC2CDA3E86557E306A8 /* CustomViewFormer.swift */,
+				4DC64853E449E59D8161E1EDDDAEAD7A /* DatePickerRowFormer.swift */,
+				EE6337947C72EB60749FE1B7BFAFEDF7 /* FormCell.swift */,
+				16A7FA3AA1E87D45C2766923A4BE2951 /* FormCheckCell.swift */,
+				F1690AC70A571D1525431ED99FAD236F /* FormDatePickerCell.swift */,
+				674A5105085A5539CC4E11029B22D65D /* Former.h */,
+				5FAD5706252D32A7DA727C018E828F1A /* Former.swift */,
+				DCF8CC2B8F9BE97BE0EA7055185675EC /* FormerProtocol.swift */,
+				D7A963ECED9F20CE1C65513521795DBE /* FormHeaderFooterView.swift */,
+				812CAC731017EF9DD07EF50450237A49 /* FormInlineDatePickerCell.swift */,
+				BEDF29FDFB39405D15E68BB7E16C9ECF /* FormInlinePickerCell.swift */,
+				9F80DCBA36A1770D44C6BF38E507F252 /* FormLabelCell.swift */,
+				54E26F10EB3D0878AF5C019419AE4B9D /* FormLabelFooterView.swift */,
+				F345F43C1FE428F5609A09EC5922DB32 /* FormLabelHeaderView.swift */,
+				C6679545336C302D6F5C4F16D7747650 /* FormPickerCell.swift */,
+				BEE86B3891A82CDAEE09F43A75ED7273 /* FormSegmentedCell.swift */,
+				3CC932D0DF7963EE9608F1D892497384 /* FormSelectorDatePickerCell.swift */,
+				866BFC8DA8691F072D6F48EBC4E86D4C /* FormSelectorPickerCell.swift */,
+				FA5CC127FC41E663BC0C54CD2CC5E8B1 /* FormSliderCell.swift */,
+				8D8AB1CB1BF189D9134ABA2FD4D3BB0D /* FormStepperCell.swift */,
+				78DD0F93468030DF9CB7B8D8D4B6677A /* FormSwitchCell.swift */,
+				EFC5802F8E4DF6CD9ECCF8C7C2332932 /* FormTextFieldCell.swift */,
+				2484D2773466C557247212A060183BCA /* FormTextViewCell.swift */,
+				55F7736F5441275AE6272102734727CA /* FormViewController.swift */,
+				E2EA44FB4B81C922BC56D444144C12CC /* InlineDatePickerRowFormer.swift */,
+				D48ED4BD9F09B1A3597722C70BE69469 /* InlinePickerRowFormer.swift */,
+				3C8847D125B7F49FD1EF709E6D2BC875 /* LabelRowFormer.swift */,
+				6490C8880B03C58C45B72D09974CBDCE /* LabelViewFormer.swift */,
+				B7516A087DE4EC63F3EF910CFE6E82BD /* PickerRowFormer.swift */,
+				EDDA96500E767535CA9E4B91EDF5C9E8 /* RowFormer.swift */,
+				B9CE74C38C91E7EDE38B6FEF6219ED2C /* SectionFormer.swift */,
+				F8DFE897ACCCDA8F0C45084D7F508C4B /* SegmentedRowFormer.swift */,
+				483FBF97CD6441CB4DCFED268ED35776 /* SelectorDatePickerRowFormer.swift */,
+				FCE89BC9943CA1CBB2D2F637F60D1555 /* SelectorPickerRowFormer.swift */,
+				4B49EB6F17772E991FD1AAB1A9D5B86C /* SliderRowFormer.swift */,
+				7201243BE2E699BA8527E1EEAEF3B73B /* StepperRowFormer.swift */,
+				3277EFE7DEF81760E58BCCAAAF444A40 /* SwitchRowFormer.swift */,
+				83A83E9A76C28A7F591821B9D7D58D2F /* TextFieldRowFormer.swift */,
+				9ED689372B691FFE08807F84CF564C8E /* TextViewRowFormer.swift */,
+				D8DE7FC04C8780E2465BC2975D45C5D2 /* UITableViewCell+Former.swift */,
+				2CD6F56C1E9EDDBC175AF7AC877D9E04 /* ViewFormer.swift */,
+				13CD71EBC7E9CDDAF9D8DFD14E39DFE5 /* Support Files */,
+			);
+			name = Former;
+			path = Former;
 			sourceTree = "<group>";
 		};
 		DC89A7F3A94503CA1EF0BC18AC222602 /* Pods-Card Keeper */ = {
@@ -300,14 +597,65 @@
 			path = "Target Support Files/Pods-Card Keeper";
 			sourceTree = "<group>";
 		};
+		EDC0C07FD9D67C1BC1F984DA43A46BB3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9DDD46AB0CD23ED4A40FB0BE7E9866E2 /* Former.framework */,
+				CA6CE765FF08B7AE8A6C181AAF271BC6 /* IRLDocumentScanner.framework */,
+				27E44F9E951E9B41052395F6B5E7DA9E /* Pods_Card_Keeper.framework */,
+				AD0B27CE1BF1BBF34D34A1412735A822 /* TOCropViewController.framework */,
+				EE80748F2043C80E13506BBC1E362950 /* TOCropViewControllerBundle.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F16209CC4BC6FB9B7ECC12F3B59B901D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F4809E3E1EC4831447331E8D4C318D93 /* Info.plist */,
+				5B8D2155839D0022FCFEC0697D6BE236 /* ResourceBundle-TOCropViewControllerBundle-Info.plist */,
+				9A4B0DC92BF8D71A82E1BF13D3CD2CCB /* TOCropViewController.modulemap */,
+				41B5772E94E150DB2DB391D388E5B227 /* TOCropViewController.xcconfig */,
+				BA46640F6DC949B00B6371DEDAE8E418 /* TOCropViewController-dummy.m */,
+				06942D67E06901996622BEC209626FBB /* TOCropViewController-prefix.pch */,
+				AB26B2E9F547F85E3F6C97EB1B8D6874 /* TOCropViewController-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TOCropViewController";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		B73913A7A337ACC6F971573B0D7B048A /* Headers */ = {
+		7682EB22D2056427F6FF2A99747D14D6 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04272DD3663386808A82550ED7717531 /* Pods-Card Keeper-umbrella.h in Headers */,
+				64A71F62A56DB4EDDE52DEE9B14F840F /* CIImage+Utilities.h in Headers */,
+				BB331D7A6F74F815C1289781CAEA7617 /* CIRectangleFeature+Utilities.h in Headers */,
+				F93DEDF8E43973701C4A84B6F951CDCE /* IRLCameraView.h in Headers */,
+				260418377A75D4DD5724658A28D61247 /* IRLDocumentScanner-umbrella.h in Headers */,
+				E406B5A66783CF39F7F86FADFB575EC9 /* IRLDocumentScanner.h in Headers */,
+				DEC48B436948819C4F83326568D20981 /* IRLScannerViewController.h in Headers */,
+				E4B13BF9333E43A3820CC8DE45ED818A /* UIButton+Extensions.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B306573EC6B1CC614C2B63CDE907E87E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97C38340B84E7BC478298926D061DF0B /* TOActivityCroppedImageProvider.h in Headers */,
+				1FB0EF0D326F23D138F3EF3726625C20 /* TOCropOverlayView.h in Headers */,
+				E8062AC1CE72CCB79BF3890C9A52BC01 /* TOCroppedImageAttributes.h in Headers */,
+				2B1442D6FAD9554B765E6A37755F36C8 /* TOCropScrollView.h in Headers */,
+				378B67C1CE296F30477EBE66F3188786 /* TOCropToolbar.h in Headers */,
+				5C7426D1CC3C8CDD9D8C2D426A01B6C5 /* TOCropView.h in Headers */,
+				0DC053CD7BE1B998BF22B7EB7881E498 /* TOCropViewController-Bridging-Header.h in Headers */,
+				968296FFBAFBA6ECC2E32F2254D9F9CE /* TOCropViewController-umbrella.h in Headers */,
+				FA0DF456ACA79AC0CF8BF1015CEBB3ED /* TOCropViewController.h in Headers */,
+				3D6B527F363EFBF5D0E8495767ACA256 /* TOCropViewControllerTransitioning.h in Headers */,
+				459ABC2D5C6A04F267D041B1584367A6 /* UIImage+CropRotate.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,9 +668,92 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F8C275D82F16CF577E743AA958AB1FB2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FC7559CF793BB2D6AD2194B5F779C4C /* Pods-Card Keeper-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		34513FD28A4C1E4B30321BFFD2AC1EFD /* TOCropViewController-TOCropViewControllerBundle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C7B96C6C2080A343494391FD3EF887D /* Build configuration list for PBXNativeTarget "TOCropViewController-TOCropViewControllerBundle" */;
+			buildPhases = (
+				89DACA575AC6CF22B33489409596E37B /* Sources */,
+				BB0C010DD77F046B8F813BCB8CDD1CF1 /* Frameworks */,
+				B78ADA329584BCB9F670E5CB990F07C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TOCropViewController-TOCropViewControllerBundle";
+			productName = "TOCropViewController-TOCropViewControllerBundle";
+			productReference = EE80748F2043C80E13506BBC1E362950 /* TOCropViewControllerBundle.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		4D9A84FC5FFF12265BA3985A751D5F40 /* Pods-Card Keeper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2912677181A8BB7D97407328A0FA0FA9 /* Build configuration list for PBXNativeTarget "Pods-Card Keeper" */;
+			buildPhases = (
+				F6673E65EC2D466C1A82343C1D425409 /* Sources */,
+				BFE201BB48EB1B4A20C510F70575DE3F /* Frameworks */,
+				F8C275D82F16CF577E743AA958AB1FB2 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B6B993BD19949451B1BF639D58CB3624 /* PBXTargetDependency */,
+				8041C63E686D0AF50B3AE3216239AE21 /* PBXTargetDependency */,
+				A796B81A6360480993D45E63A29B1102 /* PBXTargetDependency */,
+			);
+			name = "Pods-Card Keeper";
+			productName = "Pods-Card Keeper";
+			productReference = 27E44F9E951E9B41052395F6B5E7DA9E /* Pods_Card_Keeper.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		61D0B203A649000B9279301C39E5B1BA /* IRLDocumentScanner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE24832291F17D1B7E5D8A2E4B61A2FE /* Build configuration list for PBXNativeTarget "IRLDocumentScanner" */;
+			buildPhases = (
+				95A0D9A44B1FEFBF32268B99C61B2B3E /* Sources */,
+				B89900FD09FDDFF253118FE75950D8F0 /* Frameworks */,
+				7682EB22D2056427F6FF2A99747D14D6 /* Headers */,
+				E30582D5EEC4C1AAA8273179CFD46FDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C729333BBF00A507C96609E8F9A40150 /* PBXTargetDependency */,
+			);
+			name = IRLDocumentScanner;
+			productName = IRLDocumentScanner;
+			productReference = CA6CE765FF08B7AE8A6C181AAF271BC6 /* IRLDocumentScanner.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		76AF3B9FABBEE2A7032A010F6FD2BDF7 /* TOCropViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97D022DC386DDE1B64B72A52851DB9DA /* Build configuration list for PBXNativeTarget "TOCropViewController" */;
+			buildPhases = (
+				905C80B161FB7801016CB92C2AEF3FEC /* Sources */,
+				2705942C10A60F2448047F14943513FE /* Frameworks */,
+				1E3F1D91101618AACC7BEF7FB79BD234 /* Resources */,
+				B306573EC6B1CC614C2B63CDE907E87E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				271C1CD1C91C822BB2CFD7AF10905963 /* PBXTargetDependency */,
+			);
+			name = TOCropViewController;
+			productName = TOCropViewController;
+			productReference = AD0B27CE1BF1BBF34D34A1412735A822 /* TOCropViewController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		A49653DE5C178056786C3F4942CA524F /* Former */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = C0483641AE5495915EE7220D17698DAC /* Build configuration list for PBXNativeTarget "Former" */;
@@ -337,25 +768,7 @@
 			);
 			name = Former;
 			productName = Former;
-			productReference = 9371B3E5A2C772ED3204ED35AF4995C4 /* Former.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		B8BF00BC187C044A898332364951C984 /* Pods-Card Keeper */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 9D63EE9A846467BFF20F96CEC7B0AA86 /* Build configuration list for PBXNativeTarget "Pods-Card Keeper" */;
-			buildPhases = (
-				540FE6AC2A7014F67C78388FDED45D19 /* Sources */,
-				6B77ABF53AACDB4BCF64C9E36C353202 /* Frameworks */,
-				B73913A7A337ACC6F971573B0D7B048A /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				8594AE1792FD27617003D90D1376720C /* PBXTargetDependency */,
-			);
-			name = "Pods-Card Keeper";
-			productName = "Pods-Card Keeper";
-			productReference = 2DB41FF729D93E3B1BC0FC9F273F4F2A /* Pods_Card_Keeper.framework */;
+			productReference = 9DDD46AB0CD23ED4A40FB0BE7E9866E2 /* Former.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -375,22 +788,101 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 985EF2875467AB90777150D68AA0A7BB /* Products */;
+			productRefGroup = EDC0C07FD9D67C1BC1F984DA43A46BB3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				A49653DE5C178056786C3F4942CA524F /* Former */,
-				B8BF00BC187C044A898332364951C984 /* Pods-Card Keeper */,
+				61D0B203A649000B9279301C39E5B1BA /* IRLDocumentScanner */,
+				4D9A84FC5FFF12265BA3985A751D5F40 /* Pods-Card Keeper */,
+				76AF3B9FABBEE2A7032A010F6FD2BDF7 /* TOCropViewController */,
+				34513FD28A4C1E4B30321BFFD2AC1EFD /* TOCropViewController-TOCropViewControllerBundle */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		1E3F1D91101618AACC7BEF7FB79BD234 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F731BB0B4417425F27101020BCEFF27 /* TOCropViewControllerBundle.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B78ADA329584BCB9F670E5CB990F07C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97EEEC4C0AB6AC2CC5C64A74B830D0BA /* ar.lproj in Resources */,
+				ED670862721C31F02F006FDFD84F78BB /* Base.lproj in Resources */,
+				1DFB8098EAC7B2C890BB482CA5EF9DDA /* da.lproj in Resources */,
+				44BD6F3ABC4C356E03E936643C4506E6 /* de.lproj in Resources */,
+				4AD38EEB9C32F6A93D2FC1598DB961E8 /* en.lproj in Resources */,
+				A37ACF008992BEA5C5CE9555FF225565 /* es.lproj in Resources */,
+				8A2C71B331D848E8145C2D54C772706D /* fr.lproj in Resources */,
+				5BACB8CF7F3530444DBCB6C7C01FD98D /* id.lproj in Resources */,
+				3584BE4D882530248F08197504B919ED /* it.lproj in Resources */,
+				E768654DA4FE45C52B64E98AD4D63029 /* ja.lproj in Resources */,
+				48DAF7BE5FD795400547CF491B3A86D9 /* ko.lproj in Resources */,
+				F515E101C560E02EDD2CF02EB3107FB0 /* ms.lproj in Resources */,
+				E48C25D637311CF00EFA273B3EE003B4 /* nl.lproj in Resources */,
+				8C4F9A4A2A5C22C72DA19C09064369CD /* pl.lproj in Resources */,
+				1462D3D8EFC98D68EC0F61AF67F4AC9A /* pt.lproj in Resources */,
+				7428D1CB4584221F394E043BFE4C7991 /* ru.lproj in Resources */,
+				83AA7F9EAA2598674C8AB8D9A8912D55 /* tr.lproj in Resources */,
+				9638352BA40684D28238FB7AC210B433 /* vi.lproj in Resources */,
+				B822AE2434EF786A9B80FA36B78381C6 /* zh-Hans.lproj in Resources */,
+				35559673D02BF0187F34204D96EB4A4B /* zh-Hant.lproj in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E30582D5EEC4C1AAA8273179CFD46FDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3C771AFF0731F375F43D7E63F50AEB4 /* IRLCamera.storyboard in Resources */,
+				8BCB39DC237B841591DF71887D790B38 /* IRLCameraMedia.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		540FE6AC2A7014F67C78388FDED45D19 /* Sources */ = {
+		89DACA575AC6CF22B33489409596E37B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				409AC7622D139B31EDA35EF24EC8BC80 /* Pods-Card Keeper-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		905C80B161FB7801016CB92C2AEF3FEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35304C46A434D64F7A2BE040437805CB /* TOActivityCroppedImageProvider.m in Sources */,
+				E42AFDA212B8393E47F588FD03CD04B7 /* TOCropOverlayView.m in Sources */,
+				3E9DA4A28FC0D6BD0E3AA0B1B3C7CFE0 /* TOCroppedImageAttributes.m in Sources */,
+				4686D51128D52DD0041E850292B581E7 /* TOCropScrollView.m in Sources */,
+				407E03F24F0C8AA404216B5D51D563B5 /* TOCropToolbar.m in Sources */,
+				7F7140F071716B249DF2E75F824AA50F /* TOCropView.m in Sources */,
+				739EC145EB80D5294EF51D8951DDBF2B /* TOCropViewController-dummy.m in Sources */,
+				081DDFEB8AAB3B7702603A3099BB4FDB /* TOCropViewController.m in Sources */,
+				97EEE792B75821F5EBFB8DBB66FD38C5 /* TOCropViewControllerTransitioning.m in Sources */,
+				F63D5D48358EF680EC4A77CA6C0DB3A9 /* UIImage+CropRotate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95A0D9A44B1FEFBF32268B99C61B2B3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8532C05AAA8E752F5F12AA231C2A90B /* CIImage+Utilities.m in Sources */,
+				BA673215FAA078BD774FA92CBCC0A507 /* CIRectangleFeature+Utilities.m in Sources */,
+				AEB9D4336369E51D0B9189AD7423425C /* IRLCameraView.m in Sources */,
+				E62AA71C5F1221249B51A17C7F9C8E51 /* IRLDocumentScanner-dummy.m in Sources */,
+				F7B4CCA59EE3C0BBDEE0294FEB9EF698 /* IRLScannerViewController.m in Sources */,
+				1039BDE3245EDD01966CF25E67EEF2D7 /* UIButton+Extensions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -446,21 +938,100 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F6673E65EC2D466C1A82343C1D425409 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6816977BB16FCB17364B2AC01DDDDB25 /* Pods-Card Keeper-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		8594AE1792FD27617003D90D1376720C /* PBXTargetDependency */ = {
+		271C1CD1C91C822BB2CFD7AF10905963 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "TOCropViewController-TOCropViewControllerBundle";
+			target = 34513FD28A4C1E4B30321BFFD2AC1EFD /* TOCropViewController-TOCropViewControllerBundle */;
+			targetProxy = C38E4047C8B8E2C7D919AA367E77B993 /* PBXContainerItemProxy */;
+		};
+		8041C63E686D0AF50B3AE3216239AE21 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = IRLDocumentScanner;
+			target = 61D0B203A649000B9279301C39E5B1BA /* IRLDocumentScanner */;
+			targetProxy = CDCBFD68EC713350601E312A41EA9075 /* PBXContainerItemProxy */;
+		};
+		A796B81A6360480993D45E63A29B1102 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TOCropViewController;
+			target = 76AF3B9FABBEE2A7032A010F6FD2BDF7 /* TOCropViewController */;
+			targetProxy = 25BB2FA43C78468F9AE1958640780F1E /* PBXContainerItemProxy */;
+		};
+		B6B993BD19949451B1BF639D58CB3624 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Former;
 			target = A49653DE5C178056786C3F4942CA524F /* Former */;
-			targetProxy = 329F9A4F4BE4F5B7452D0518C1921455 /* PBXContainerItemProxy */;
+			targetProxy = E4E3D8D48738A6C520B873D67678D097 /* PBXContainerItemProxy */;
+		};
+		C729333BBF00A507C96609E8F9A40150 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TOCropViewController;
+			target = 76AF3B9FABBEE2A7032A010F6FD2BDF7 /* TOCropViewController */;
+			targetProxy = 992D8D59A809ED5C3FECAFBDA294F9D0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		5CB2A04AE3984DDAED3340CBB20A0333 /* Release */ = {
+		082E08BFD12B688D0464AB901E9901F3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 48F12948A1F644A413A509C366DAAA22 /* Pods-Card Keeper.release.xcconfig */;
+			baseConfigurationReference = 41B5772E94E150DB2DB391D388E5B227 /* TOCropViewController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TOCropViewController";
+				INFOPLIST_FILE = "Target Support Files/TOCropViewController/ResourceBundle-TOCropViewControllerBundle-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = TOCropViewControllerBundle;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		10E8A800C0EF3A661AA412BE88FCB06C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41B5772E94E150DB2DB391D388E5B227 /* TOCropViewController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TOCropViewController/TOCropViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TOCropViewController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TOCropViewController/TOCropViewController.modulemap";
+				PRODUCT_MODULE_NAME = TOCropViewController;
+				PRODUCT_NAME = TOCropViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		18968D3B1B7E55BB7AFF565A4475992D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D36AEA26C659C4056D06F485B51B9DD2 /* Pods-Card Keeper.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -486,7 +1057,39 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		49C43581465C2DBB3399B672C4CB7EA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43E2E587D2147887D14610E3FBECDB80 /* IRLDocumentScanner.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/IRLDocumentScanner/IRLDocumentScanner-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/IRLDocumentScanner/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/IRLDocumentScanner/IRLDocumentScanner.modulemap";
+				PRODUCT_MODULE_NAME = IRLDocumentScanner;
+				PRODUCT_NAME = IRLDocumentScanner;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -615,12 +1218,10 @@
 			};
 			name = Release;
 		};
-		774CC40B99A494C3DC1CA28440B5C39D /* Debug */ = {
+		7B0621ABF39EAC80BC08B0DFE212CCBA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D36AEA26C659C4056D06F485B51B9DD2 /* Pods-Card Keeper.debug.xcconfig */;
+			baseConfigurationReference = 41B5772E94E150DB2DB391D388E5B227 /* TOCropViewController.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -630,30 +1231,44 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Card Keeper/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/TOCropViewController/TOCropViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TOCropViewController/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Card Keeper/Pods-Card Keeper.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				MODULEMAP_FILE = "Target Support Files/TOCropViewController/TOCropViewController.modulemap";
+				PRODUCT_MODULE_NAME = TOCropViewController;
+				PRODUCT_NAME = TOCropViewController;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7F505B29BA750CC622A4B0CEBA8CECF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41B5772E94E150DB2DB391D388E5B227 /* TOCropViewController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TOCropViewController";
+				INFOPLIST_FILE = "Target Support Files/TOCropViewController/ResourceBundle-TOCropViewControllerBundle-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = TOCropViewControllerBundle;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Debug;
 		};
 		9B02AF943F06819534E397FCC508BD86 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3E429995781D5B5FE3B5E764048AE400 /* Former.xcconfig */;
+			baseConfigurationReference = 98CC005AD34A8CF5CB765B423DA73A2D /* Former.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -684,9 +1299,76 @@
 			};
 			name = Release;
 		};
+		A33E4B6FBC5A8F0789651FE92DF7BBCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48F12948A1F644A413A509C366DAAA22 /* Pods-Card Keeper.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Card Keeper/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Card Keeper/Pods-Card Keeper.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B333680C65D101246B64B58E60E0E249 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43E2E587D2147887D14610E3FBECDB80 /* IRLDocumentScanner.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/IRLDocumentScanner/IRLDocumentScanner-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/IRLDocumentScanner/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/IRLDocumentScanner/IRLDocumentScanner.modulemap";
+				PRODUCT_MODULE_NAME = IRLDocumentScanner;
+				PRODUCT_NAME = IRLDocumentScanner;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		F4258E165234D74749C9307144A2E4C8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3E429995781D5B5FE3B5E764048AE400 /* Former.xcconfig */;
+			baseConfigurationReference = 98CC005AD34A8CF5CB765B423DA73A2D /* Former.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -719,6 +1401,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		2912677181A8BB7D97407328A0FA0FA9 /* Build configuration list for PBXNativeTarget "Pods-Card Keeper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18968D3B1B7E55BB7AFF565A4475992D /* Debug */,
+				A33E4B6FBC5A8F0789651FE92DF7BBCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -728,11 +1419,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9D63EE9A846467BFF20F96CEC7B0AA86 /* Build configuration list for PBXNativeTarget "Pods-Card Keeper" */ = {
+		6C7B96C6C2080A343494391FD3EF887D /* Build configuration list for PBXNativeTarget "TOCropViewController-TOCropViewControllerBundle" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				774CC40B99A494C3DC1CA28440B5C39D /* Debug */,
-				5CB2A04AE3984DDAED3340CBB20A0333 /* Release */,
+				7F505B29BA750CC622A4B0CEBA8CECF0 /* Debug */,
+				082E08BFD12B688D0464AB901E9901F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97D022DC386DDE1B64B72A52851DB9DA /* Build configuration list for PBXNativeTarget "TOCropViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10E8A800C0EF3A661AA412BE88FCB06C /* Debug */,
+				7B0621ABF39EAC80BC08B0DFE212CCBA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -742,6 +1442,15 @@
 			buildConfigurations = (
 				F4258E165234D74749C9307144A2E4C8 /* Debug */,
 				9B02AF943F06819534E397FCC508BD86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE24832291F17D1B7E5D8A2E4B61A2FE /* Build configuration list for PBXNativeTarget "IRLDocumentScanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B333680C65D101246B64B58E60E0E249 /* Debug */,
+				49C43581465C2DBB3399B672C4CB7EA8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

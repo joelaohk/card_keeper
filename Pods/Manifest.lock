@@ -1,16 +1,27 @@
 PODS:
   - Former (1.6.1)
+  - IRLDocumentScanner (0.3.1):
+    - IRLDocumentScanner/Default (= 0.3.1)
+    - TOCropViewController (~> 2.3)
+  - IRLDocumentScanner/Default (0.3.1):
+    - TOCropViewController (~> 2.3)
+  - TOCropViewController (2.3.6)
 
 DEPENDENCIES:
   - Former
+  - IRLDocumentScanner
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
     - Former
+    - IRLDocumentScanner
+    - TOCropViewController
 
 SPEC CHECKSUMS:
   Former: 830077d303185f56bcde1be0158b31f0626f1be4
+  IRLDocumentScanner: 8a110e4bae712036dcd98061d046b1bee497c76d
+  TOCropViewController: 6d972f2c609372312648f96758e13a7f689efbc0
 
-PODFILE CHECKSUM: 77b33b8fba614df3d493da638e133a486d461420
+PODFILE CHECKSUM: 98d785921aaf4e3feb8f10f05890448d37344539
 
 COCOAPODS: 1.5.0

@@ -16,8 +16,11 @@ class CardEditorTableView: UITableView {
     var cardNameRow: TextViewRowFormer<FormTextViewCell>!
     var issuerRow: TextViewRowFormer<FormTextViewCell>!
     var cardImageHolderRow: CustomRowFormer<CardImageHolderCell>!
+    var cardIDRow: CustomRowFormer<CardIDCell>!
     var cardFaceSection: SectionFormer!
     var cardInfoSection: SectionFormer!
+    var cardData: [String:AnyObject]!
+    
     override init(frame: CGRect, style: UITableViewStyle) {
         super.init(frame: CGRect.zero, style: .grouped)
         setup()
@@ -45,23 +48,25 @@ class CardEditorTableView: UITableView {
             row in
             row.rowHeight = 227
         }
-        let cardNameLabelRow = LabelRowFormer<FormLabelCell>().configure {
-            row in
-            row.rowHeight = 30
-            row.text = "CARD NAME"
-        }
         self.cardNameRow = TextViewRowFormer<FormTextViewCell>().configure {
-            row in row.placeholder = "Card name"
+            row in
+            row.cell.titleLabel.text = "CARD NAME"
+            row.placeholder = "Card name"
             row.rowHeight = 40
         }
         self.issuerRow = TextViewRowFormer<FormTextViewCell>().configure {
             row in row.placeholder = "Issuer"
+            row.cell.titleLabel.text = "ISSUER"
             row.rowHeight = 40
+        }
+        self.cardIDRow = CustomRowFormer<CardIDCell>(instantiateType: .Nib(nibName: "CardIDCell")).configure {
+            row in
+            
         }
         
         
         self.cardFaceSection = SectionFormer(rowFormer: cardImageHolderRow)
-        self.cardInfoSection = SectionFormer(rowFormer: cardNameLabelRow, cardNameRow, issuerRow)
+        self.cardInfoSection = SectionFormer(rowFormer: cardNameRow, issuerRow)
         self.former.append(sectionFormer: cardFaceSection, cardInfoSection)
         addSubview(view)
     }

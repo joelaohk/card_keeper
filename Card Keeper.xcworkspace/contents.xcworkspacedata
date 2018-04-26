@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:/Users/joelaohk/Desktop/Card Keeper/Card Keeper/CardIDCell.swift">
+   </FileRef>
+   <FileRef
       location = "group:Card Keeper.xcodeproj">
    </FileRef>
    <FileRef

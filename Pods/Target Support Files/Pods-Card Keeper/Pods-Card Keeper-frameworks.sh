@@ -144,9 +144,13 @@ strip_invalid_archs() {
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/Former/Former.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/IRLDocumentScanner/IRLDocumentScanner.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/TOCropViewController/TOCropViewController.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/Former/Former.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/IRLDocumentScanner/IRLDocumentScanner.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/TOCropViewController/TOCropViewController.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait

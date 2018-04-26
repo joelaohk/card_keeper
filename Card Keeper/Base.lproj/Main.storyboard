@@ -95,13 +95,18 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BzM-vV-znD" customClass="CardEditorTableView" customModule="Card_Keeper" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Xst-Qy-NRZ" customClass="CardEditorTableView" customModule="Card_Keeper" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="64" width="375" height="603"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Xst-Qy-NRZ" firstAttribute="trailing" secondItem="E0M-6f-ssw" secondAttribute="trailing" id="B3p-q4-ksP"/>
+                            <constraint firstItem="Xst-Qy-NRZ" firstAttribute="leading" secondItem="E0M-6f-ssw" secondAttribute="leading" id="Qha-U3-Fpa"/>
+                            <constraint firstItem="Xst-Qy-NRZ" firstAttribute="top" secondItem="E0M-6f-ssw" secondAttribute="top" id="nxh-7F-Goo"/>
+                            <constraint firstAttribute="bottom" secondItem="Xst-Qy-NRZ" secondAttribute="bottom" id="sSh-No-xBz"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="E0M-6f-ssw"/>
                     </view>
                     <navigationItem key="navigationItem" title="Add Card" id="cOQ-L0-bcV">
@@ -110,16 +115,21 @@
                                 <action selector="goBack:" destination="e1G-Aj-Cyu" id="Eh7-Cf-ims"/>
                             </connections>
                         </barButtonItem>
-                        <barButtonItem key="rightBarButtonItem" title="Add" id="cmi-un-FsJ"/>
+                        <barButtonItem key="rightBarButtonItem" title="Add" id="cmi-un-FsJ">
+                            <connections>
+                                <action selector="confirmToAdd:" destination="e1G-Aj-Cyu" id="moG-Ui-Ip9"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <connections>
+                        <outlet property="mainView" destination="Xst-Qy-NRZ" id="Q9I-nB-OM2"/>
                         <segue destination="4DN-yb-I87" kind="unwind" identifier="unwindToMain" unwindAction="unwindToMainWithSegue:" id="kfa-vp-sTO"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3wn-QV-agr" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="4DN-yb-I87" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="2551.1999999999998" y="1135.6821589205399"/>
+            <point key="canvasLocation" x="2446" y="1136"/>
         </scene>
         <!--Profile-->
         <scene sceneID="I8f-lU-Pcn">

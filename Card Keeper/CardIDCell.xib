@@ -24,7 +24,7 @@
                     </constraints>
                     <state key="normal" title="Button" image="scan"/>
                     <connections>
-                        <action selector="scanCard:" destination="iN0-l3-epB" eventType="touchUpInside" id="NIy-F2-mUJ"/>
+                        <action selector="scanButtonClicked:" destination="iN0-l3-epB" eventType="touchUpInside" id="hjV-hB-eF8"/>
                     </connections>
                 </button>
                 <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="VUl-2i-lrz">
@@ -51,7 +51,6 @@
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
             <connections>
                 <outlet property="cardIDTextField" destination="VUl-2i-lrz" id="K5H-Sa-fQT"/>
-                <outlet property="scanIDButton" destination="864-Af-g5R" id="aW4-Po-MfH"/>
             </connections>
             <point key="canvasLocation" x="32.5" y="-267.5"/>
         </view>

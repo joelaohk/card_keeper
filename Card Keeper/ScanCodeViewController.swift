@@ -9,8 +9,16 @@
 import UIKit
 import AVFoundation
 
-class ScanCardFaceViewController: UIViewController, AVCaptureMetadataOutputObjectsDelegate {
-
+class ScanCodeViewController: UIViewController, AVCaptureMetadataOutputObjectsDelegate {
+    
+    @IBOutlet weak var topBar: UINavigationBar!
+    
+    @IBAction func cancelScan(_ sender: Any) {
+        dismiss(animated: true, completion: nil)
+    }
+    
+    var dataDelegate: SendMetadataDelegate?
+    
     var captureSession:AVCaptureSession?
     var videoPreviewLayer:AVCaptureVideoPreviewLayer?
     var qrCodeFrameView:UIView?
@@ -18,6 +26,8 @@ class ScanCardFaceViewController: UIViewController, AVCaptureMetadataOutputObjec
     override func viewDidLoad() {
         super.viewDidLoad()
         // Get the back-facing camera for capturing videos
+        captureSession = AVCaptureSession()
+        
         let deviceDiscoverySession = AVCaptureDevice.DiscoverySession(deviceTypes: [.builtInDualCamera], mediaType: AVMediaType.video, position: .back)
         
         guard let captureDevice = deviceDiscoverySession.devices.first else {
@@ -40,7 +50,17 @@ class ScanCardFaceViewController: UIViewController, AVCaptureMetadataOutputObjec
             
             captureMetadataOutput.setMetadataObjectsDelegate(self, queue: DispatchQueue.main)
             
-            captureMetadataOutput.metadataObjectTypes = [AVMetadataObject.ObjectType.qr]
+            captureMetadataOutput.metadataObjectTypes = [AVMetadataObject.ObjectType.qr, AVMetadataObject.ObjectType.code128]
+            
+            // Initialize the video preview layer and add it as a sublayer to the viewPreview view's layer.
+            videoPreviewLayer = AVCaptureVideoPreviewLayer(session: captureSession!)
+            videoPreviewLayer?.videoGravity = AVLayerVideoGravity.resizeAspectFill
+            videoPreviewLayer?.frame = view.layer.bounds
+            view.layer.addSublayer(videoPreviewLayer!)
+            
+            // Start video capture.
+            captureSession!.startRunning()
+            view.bringSubview(toFront: topBar)
             
         } catch {
             // If any error occurs, simply print it out and don't continue any more.
@@ -67,5 +87,29 @@ class ScanCardFaceViewController: UIViewController, AVCaptureMetadataOutputObjec
         // Pass the selected object to the new view controller.
     }
     */
+    
+    func metadataOutput(_ output: AVCaptureMetadataOutput, didOutput metadataObjects: [AVMetadataObject], from connection: AVCaptureConnection) {
+        // Check if the metadataObjects array is not nil and it contains at least one object.
+        if metadataObjects.count == 0 {
+            qrCodeFrameView?.frame = CGRect.zero
+            print("No QR code is detected")
+            return
+        }
+        
+        let metadataObj = metadataObjects[0] as! AVMetadataMachineReadableCodeObject
+        var codeObj = [String:Any]()
+        codeObj["code"] = metadataObj.stringValue
+        if metadataObj.type == AVMetadataObject.ObjectType.qr {
+            codeObj["code_type"] = "barcode"
+        } else if metadataObj.type == AVMetadataObject.ObjectType.code128 {
+            codeObj["code_type"] = "qr"
+        }
+        dataDelegate?.sendMetadata(self, metadata: codeObj)
+        dismiss(animated: true, completion: nil)
+    }
 
+}
+
+protocol SendMetadataDelegate {
+    func sendMetadata(_ sender: ScanCodeViewController, metadata: [String: Any])
 }

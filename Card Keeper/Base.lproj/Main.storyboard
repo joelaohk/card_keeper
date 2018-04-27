@@ -280,6 +280,46 @@
             </objects>
             <point key="canvasLocation" x="2446" y="1136"/>
         </scene>
+        <!--Scan Code View Controller-->
+        <scene sceneID="Ji9-H9-7cn">
+            <objects>
+                <viewController storyboardIdentifier="ScanID" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Mab-wO-Vq7" customClass="ScanCodeViewController" customModule="Card_Keeper" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="I0D-IH-Boo">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1xA-Vb-GAz">
+                                <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="375" id="VaD-Wv-C0m"/>
+                                </constraints>
+                                <items>
+                                    <navigationItem title="Scan ID" id="3s1-UG-Qy7">
+                                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="WXD-4E-w67">
+                                            <connections>
+                                                <action selector="cancelScan:" destination="Mab-wO-Vq7" id="ncg-ON-ZbF"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="1xA-Vb-GAz" firstAttribute="trailing" secondItem="h0C-y1-NZU" secondAttribute="trailing" id="4eK-Oc-Yes"/>
+                            <constraint firstItem="1xA-Vb-GAz" firstAttribute="top" secondItem="h0C-y1-NZU" secondAttribute="top" id="JOf-hf-E4M"/>
+                            <constraint firstItem="1xA-Vb-GAz" firstAttribute="leading" secondItem="h0C-y1-NZU" secondAttribute="leading" id="gkO-OV-gi5"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="h0C-y1-NZU"/>
+                    </view>
+                    <connections>
+                        <outlet property="topBar" destination="1xA-Vb-GAz" id="pmd-zB-6Vr"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tmG-RG-JHy" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3236" y="1092"/>
+        </scene>
         <!--Profile-->
         <scene sceneID="I8f-lU-Pcn">
             <objects>

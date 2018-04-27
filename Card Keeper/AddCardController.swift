@@ -10,7 +10,29 @@ import UIKit
 import CoreData
 import IRLDocumentScanner
 
-class AddCardController: UIViewController, IRLScannerViewControllerDelegate {
+class AddCardController: UIViewController, IRLScannerViewControllerDelegate, ScanIDDelegate, SendMetadataDelegate {
+    
+    func sendMetadata(_ sender: ScanCodeViewController, metadata: [String:Any]) {
+        mainView.cardIDRow.cell.cardIDTextField.text = metadata["code"] as? String
+        if (metadata["code_type"] as? String == "qr") {
+            mainView.showIDMethodRow.selectedRow = 0
+        } else if (metadata["code_type"] as? String == "barcode") {
+            mainView.showIDMethodRow.selectedRow = 1
+        }
+        
+        for data in metadata {
+            mainView.cardData[data.key] = data.value
+        }
+        
+    }
+    
+    func scanID(_ sender: CardIDCell) {
+        
+        let idScanner = self.storyboard?.instantiateViewController(withIdentifier: "ScanID") as! ScanCodeViewController
+        idScanner.dataDelegate = self
+        self.navigationController?.showDetailViewController(idScanner, sender: self)
+    }
+    
     func pageSnapped(_ page_image: UIImage, from controller: IRLScannerViewController) {
         controller.dismiss(animated: true) { () -> Void in
             let width = page_image.size.width
@@ -87,6 +109,7 @@ class AddCardController: UIViewController, IRLScannerViewControllerDelegate {
         let cardFaceImageView = mainView.cardImageHolderRow.cell.CardImageHolder
         let tapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(imageTapped(tapGestureRecognizer:)))
         cardFaceImageView!.isUserInteractionEnabled = true
+        mainView.cardIDRow.cell.scanDelegate = self
         mainView.cardImageHolderRow.cell.CardImageHolder.addGestureRecognizer(tapGestureRecognizer)
         
         //let tapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(imageTapped(tapGestureRecognizer:)))

@@ -9,9 +9,15 @@ import UIKit
 import Former
 
 class CardIDCell: UITableViewCell, TextFieldFormableRow {
-    @IBOutlet weak var cardIDTextField: UITextField!
-    @IBOutlet weak var scanIDButton: UIButton!
     
+    var scanDelegate: ScanIDDelegate?
+    
+    @IBOutlet weak var cardIDTextField: UITextField!
+    
+    @IBAction func scanButtonClicked(_ sender: Any) {
+        print("hello")
+        scanDelegate?.scanID(self)
+    }
     func formTextField() -> UITextField {
         return cardIDTextField
     }

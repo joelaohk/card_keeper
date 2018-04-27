@@ -89,6 +89,7 @@ class CardEditorTableView: UITableView {
             }.inlineCellSetup{
                 $0.datePicker.datePickerMode = .date
                 $0.datePicker.minimumDate = Date()
+                self.cardData["expiry"] = $0.datePicker.date
             }.onDateChanged{
                 self.cardData["expiry"] = $0
         }

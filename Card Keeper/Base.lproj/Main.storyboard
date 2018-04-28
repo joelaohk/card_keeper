@@ -337,14 +337,51 @@
                     <view key="view" contentMode="scaleToFill" id="q4g-R5-8Lp">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_83.5" translatesAutoresizingMaskIntoConstraints="NO" id="DiH-SQ-Sw6">
+                                <rect key="frame" x="107" y="113" width="161" height="151"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="151" id="Fe8-pW-34c"/>
+                                    <constraint firstAttribute="width" constant="161" id="jKx-uk-lbx"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Card Keeper" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Uau-u6-zMP">
+                                <rect key="frame" x="139" y="323" width="96" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Proudly developed by Great Grape Group @ 2018" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="O6d-LK-XMN">
+                                <rect key="frame" x="94" y="352" width="186" height="49"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="49" id="APU-T2-Zsi"/>
+                                    <constraint firstAttribute="width" constant="186" id="yf4-1o-Xwy"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Kuu-Qj-MGM" firstAttribute="trailing" secondItem="DiH-SQ-Sw6" secondAttribute="trailing" constant="107" id="5Ol-Sz-Bbk"/>
+                            <constraint firstItem="Uau-u6-zMP" firstAttribute="top" secondItem="DiH-SQ-Sw6" secondAttribute="bottom" constant="59" id="9Ay-fF-UAY"/>
+                            <constraint firstItem="Kuu-Qj-MGM" firstAttribute="trailing" secondItem="O6d-LK-XMN" secondAttribute="trailing" constant="95" id="9RV-E3-foS"/>
+                            <constraint firstItem="O6d-LK-XMN" firstAttribute="leading" secondItem="Kuu-Qj-MGM" secondAttribute="leading" constant="94" id="Ibu-3a-8Ra"/>
+                            <constraint firstItem="Uau-u6-zMP" firstAttribute="leading" secondItem="Kuu-Qj-MGM" secondAttribute="leading" constant="139" id="JeM-Ij-M7o"/>
+                            <constraint firstItem="O6d-LK-XMN" firstAttribute="top" secondItem="Uau-u6-zMP" secondAttribute="bottom" constant="8" id="Uos-Rn-dyA"/>
+                            <constraint firstItem="Kuu-Qj-MGM" firstAttribute="trailing" secondItem="Uau-u6-zMP" secondAttribute="trailing" constant="140" id="X6N-yT-0Xq"/>
+                            <constraint firstItem="DiH-SQ-Sw6" firstAttribute="leading" secondItem="Kuu-Qj-MGM" secondAttribute="leading" constant="107" id="ZeW-gU-kXo"/>
+                            <constraint firstItem="Kuu-Qj-MGM" firstAttribute="bottom" secondItem="O6d-LK-XMN" secondAttribute="bottom" constant="217" id="brS-3U-hla"/>
+                            <constraint firstItem="DiH-SQ-Sw6" firstAttribute="top" secondItem="Kuu-Qj-MGM" secondAttribute="top" constant="93" id="lIh-s9-4uj"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="Kuu-Qj-MGM"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Profile" image="profile" id="HnB-cA-rDa"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kdv-qe-nlw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="735" y="-373"/>
+            <point key="canvasLocation" x="733.60000000000002" y="-373.76311844077964"/>
         </scene>
         <!--Home-->
         <scene sceneID="lM6-Ze-9i9">
@@ -468,6 +505,7 @@
     <resources>
         <image name="edit" width="18" height="18"/>
         <image name="home" width="50" height="50"/>
+        <image name="icon_83.5" width="83" height="83"/>
         <image name="profile" width="26" height="26"/>
         <image name="rotate" width="22" height="16"/>
     </resources>

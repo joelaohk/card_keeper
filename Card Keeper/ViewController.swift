@@ -10,7 +10,7 @@ import UIKit
 import Former
 import CoreData
 
-class ViewController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate {
+class ViewController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate, UIGestureRecognizerDelegate {
     
     var allCards: [Card]!
     var dataConnector: CoreDataConnect?
@@ -21,6 +21,37 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
     @IBOutlet weak var cardCollection: UICollectionView!
     @IBAction func unwindToMain(segue:UIStoryboardSegue) { }
     
+    @objc func handleLongPress(recogniser: UILongPressGestureRecognizer) {
+        if (recogniser.state == .began) {
+            let location = recogniser.location(in: self.cardCollection)
+            let indexPath = self.cardCollection.indexPathForItem(at: location)
+            if let index = indexPath {
+                let card = self.allCards[index.item]
+                
+                let cardName: String
+                if let name = card.name {
+                    cardName = name
+                } else {
+                    cardName = ""
+                }
+                
+                let alertController = UIAlertController(title: "Delete card",
+                                                        message: "Are your sure you want to delete card " + cardName + " ?",
+                                                        preferredStyle: .actionSheet)
+                let yesAction = UIAlertAction(title: "Yes", style: .default, handler: {
+                    _ in
+                    self.dataConnector?.deleteCard(cardID: card.id!)
+                    self.getCards()
+                    self.cardCollection.reloadData()
+                })
+                let noAction = UIAlertAction(title: "No", style: .cancel, handler: nil)
+                alertController.addAction(yesAction)
+                alertController.addAction(noAction)
+                self.present(alertController, animated: true, completion: nil)
+            }
+        }
+        
+    }
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         if let cards = allCards {
             return cards.count
@@ -66,6 +97,12 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
             collect.reloadData()
         }
         
+        let recogniser = UILongPressGestureRecognizer(target: self, action: #selector(ViewController.handleLongPress))
+        recogniser.minimumPressDuration = 0.5
+        recogniser.delaysTouchesBegan = true
+        recogniser.delegate = self
+        self.cardCollection.addGestureRecognizer(recogniser)
+        
     }
     
     override func viewDidLoad() {
@@ -75,8 +112,6 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
         self.context = appDelegate.persistentContainer.viewContext
         self.initDataConnector()
         self.getCards()
-        
-        
         // Do any additional setup after loading the view, typically from a nib.
     }
 

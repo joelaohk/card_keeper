@@ -49,9 +49,20 @@ class CoreDataConnect {
         return []
     }
     
+    func getCard(cardID: UUID) -> Card {
+        let request = NSFetchRequest<NSFetchRequestResult>(entityName: self.entityName)
+        request.predicate = NSPredicate(format: "id == %@", cardID as CVarArg)
+        do {
+            let results = try context.fetch(request) as! [Card]
+            return results[0]
+        } catch {
+            fatalError("Cannot get card")
+        }
+    }
+    
     func deleteCard(cardID:UUID) -> Bool {
         let request = NSFetchRequest<NSFetchRequestResult>(entityName: self.entityName)
-        request.predicate = NSPredicate(format: "id = \(cardID)")
+        request.predicate = NSPredicate(format: "id == %@", cardID as CVarArg)
         do {
             let results = try context.fetch(request) as! [Card]
             for result in results {
@@ -67,7 +78,7 @@ class CoreDataConnect {
     
     func updateCard(cardID:UUID, updateData:[String:Any]) -> Bool {
         let request = NSFetchRequest<NSFetchRequestResult>(entityName: self.entityName)
-        request.predicate = NSPredicate(format: "id = \(cardID)")
+        request.predicate = NSPredicate(format: "id == %@", cardID as CVarArg)
         do {
             let results = try context.fetch(request) as! [Card]
             if results.count > 0 {

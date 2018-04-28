@@ -89,18 +89,19 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="mM3-ph-5QT">
-                                <rect key="frame" x="20" y="83" width="335" height="469.5"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="mM3-ph-5QT">
+                                <rect key="frame" x="20" y="83" width="335" height="493.5"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cardImageHolder" translatesAutoresizingMaskIntoConstraints="NO" id="7sk-oR-oYy">
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1XI-s3-5gc">
                                         <rect key="frame" x="0.0" y="0.0" width="335" height="207"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="335" id="3A4-Od-B8o"/>
-                                            <constraint firstAttribute="height" constant="207" id="L12-pY-2R4"/>
+                                            <constraint firstAttribute="width" constant="335" id="Bgc-Cj-KaC"/>
+                                            <constraint firstAttribute="height" constant="207" id="l4S-9r-KN2"/>
                                         </constraints>
-                                    </imageView>
+                                    </view>
                                     <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1mq-gj-iDK">
-                                        <rect key="frame" x="0.0" y="215" width="335" height="22"/>
+                                        <rect key="frame" x="0.0" y="227" width="335" height="22"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6ZX-9o-ptd">
                                                 <rect key="frame" x="0.0" y="0.0" width="167" height="22"/>
@@ -109,6 +110,9 @@
                                                     <constraint firstAttribute="height" constant="22" id="ZYd-Vt-Y2s"/>
                                                 </constraints>
                                                 <state key="normal" image="edit"/>
+                                                <connections>
+                                                    <segue destination="9ha-m1-itd" kind="showDetail" identifier="editCardSegue" id="eSK-7O-rZh"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GRE-qg-miC">
                                                 <rect key="frame" x="167" y="0.0" width="168" height="22"/>
@@ -117,11 +121,14 @@
                                                     <constraint firstAttribute="width" constant="168" id="ag5-wK-asO"/>
                                                 </constraints>
                                                 <state key="normal" image="rotate"/>
+                                                <connections>
+                                                    <action selector="flipImage:" destination="lnj-yQ-8O1" eventType="touchUpInside" id="Aqc-bL-Tyy"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="XZO-aU-2W5">
-                                        <rect key="frame" x="0.0" y="245" width="335" height="224.5"/>
+                                        <rect key="frame" x="0.0" y="269" width="335" height="224.5"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="ozF-NG-d8A">
                                                 <rect key="frame" x="0.0" y="0.0" width="335" height="38.5"/>
@@ -215,7 +222,10 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="PrW-YM-PAo" firstAttribute="trailing" secondItem="mM3-ph-5QT" secondAttribute="trailing" constant="20" id="26g-Eo-snu"/>
+                            <constraint firstItem="mM3-ph-5QT" firstAttribute="top" secondItem="PrW-YM-PAo" secondAttribute="top" constant="19" id="Iwp-eb-7nn"/>
                             <constraint firstItem="PrW-YM-PAo" firstAttribute="trailing" secondItem="mM3-ph-5QT" secondAttribute="trailing" constant="20" id="Ky2-e5-xhV"/>
+                            <constraint firstItem="mM3-ph-5QT" firstAttribute="leading" secondItem="PrW-YM-PAo" secondAttribute="leading" constant="20" id="SG8-h3-Edo"/>
                             <constraint firstItem="mM3-ph-5QT" firstAttribute="top" secondItem="PrW-YM-PAo" secondAttribute="top" constant="19" id="YUO-ib-cI0"/>
                             <constraint firstItem="mM3-ph-5QT" firstAttribute="leading" secondItem="PrW-YM-PAo" secondAttribute="leading" constant="20" id="aIw-Ol-X3w"/>
                         </constraints>
@@ -224,8 +234,8 @@
                     <navigationItem key="navigationItem" title="Card Name" id="wiU-3B-0Tr"/>
                     <connections>
                         <outlet property="barTitle" destination="wiU-3B-0Tr" id="1Py-6q-Ll5"/>
-                        <outlet property="cardFaceImageView" destination="7sk-oR-oYy" id="Wzp-hQ-shi"/>
                         <outlet property="cardIDLabel" destination="yfq-8w-VHb" id="C4D-dP-KDf"/>
+                        <outlet property="cardImagesUIView" destination="1XI-s3-5gc" id="xla-yT-Vv3"/>
                         <outlet property="cardNameLabel" destination="xGi-Pb-VHR" id="yC5-9n-hkx"/>
                         <outlet property="expiryLabel" destination="svp-8U-isL" id="KnI-nd-rrS"/>
                         <outlet property="issuerLabel" destination="cfw-yD-TfD" id="Sjb-T8-Vf1"/>
@@ -239,7 +249,7 @@
         <!--Add Card-->
         <scene sceneID="tKI-vT-0ls">
             <objects>
-                <viewController storyboardIdentifier="CardEditor" useStoryboardIdentifierAsRestorationIdentifier="YES" id="e1G-Aj-Cyu" customClass="AddCardController" customModule="Card_Keeper" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="CardAdder" useStoryboardIdentifierAsRestorationIdentifier="YES" id="e1G-Aj-Cyu" customClass="AddCardController" customModule="Card_Keeper" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="eus-fN-J0a">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -318,7 +328,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tmG-RG-JHy" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3236" y="1092"/>
+            <point key="canvasLocation" x="3246" y="1136"/>
         </scene>
         <!--Profile-->
         <scene sceneID="I8f-lU-Pcn">
@@ -334,7 +344,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kdv-qe-nlw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="476" y="-302"/>
+            <point key="canvasLocation" x="735" y="-373"/>
         </scene>
         <!--Home-->
         <scene sceneID="lM6-Ze-9i9">
@@ -392,9 +402,70 @@
             </objects>
             <point key="canvasLocation" x="1612" y="1135.6821589205399"/>
         </scene>
+        <!--Edit Card-->
+        <scene sceneID="2hE-2w-5L3">
+            <objects>
+                <viewController storyboardIdentifier="CardEditor" useStoryboardIdentifierAsRestorationIdentifier="YES" id="8DE-f2-zuQ" customClass="EditCardController" customModule="Card_Keeper" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="QHD-FV-Yio">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xGK-Vz-roT" customClass="CardEditorTableView" customModule="Card_Keeper" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="xGK-Vz-roT" firstAttribute="leading" secondItem="Yt6-1z-Efn" secondAttribute="leading" id="8T2-iu-fr2"/>
+                            <constraint firstItem="xGK-Vz-roT" firstAttribute="trailing" secondItem="Yt6-1z-Efn" secondAttribute="trailing" id="aVb-XK-G1T"/>
+                            <constraint firstItem="xGK-Vz-roT" firstAttribute="top" secondItem="Yt6-1z-Efn" secondAttribute="top" id="unG-53-olC"/>
+                            <constraint firstAttribute="bottom" secondItem="xGK-Vz-roT" secondAttribute="bottom" id="xRL-py-CcI"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Yt6-1z-Efn"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Edit Card" id="52S-V2-pLx">
+                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="D8G-yI-S22">
+                            <connections>
+                                <action selector="cancelUpdate:" destination="8DE-f2-zuQ" id="OHx-4p-wc5"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" systemItem="save" id="I6I-8h-Fiy">
+                            <connections>
+                                <action selector="saveUpdate:" destination="8DE-f2-zuQ" id="JLJ-3L-nMG"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="mainView" destination="xGK-Vz-roT" id="LZJ-UF-6As"/>
+                        <segue destination="5X0-00-NA3" kind="unwind" identifier="unwindToMain" unwindAction="unwindToMainWithSegue:" id="WXk-uo-rjr"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xpM-iy-Ack" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="5X0-00-NA3" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="3246" y="367"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="rwS-cM-caS">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="9ha-m1-itd" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="N6F-Tq-voz">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="8DE-f2-zuQ" kind="relationship" relationship="rootViewController" id="GwJ-5G-GWs"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EhM-3V-iD8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3247" y="-372"/>
+        </scene>
     </scenes>
     <resources>
-        <image name="cardImageHolder" width="292" height="171"/>
         <image name="edit" width="18" height="18"/>
         <image name="home" width="50" height="50"/>
         <image name="profile" width="26" height="26"/>

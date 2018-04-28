@@ -33,10 +33,34 @@ class CardEditorTableView: UITableView {
     }
     
     func populateCardData(card: Card) {
+        self.cardNameRow.text = card.name
+        self.issuerRow.text = card.issuer
+        self.cardIDRow.text = card.code
+        self.cardImageHolderRow.cell.CardImageHolder.image = UIImage(data: card.image!)
+        if (card.code_type == "qr") {
+            self.showIDMethodRow.selectedRow = 0
+        } else if (card.code_type == "barcode") {
+            self.showIDMethodRow.selectedRow = 1
+        } else {
+            self.showIDMethodRow.selectedRow = 2
+        }
+        print(self.showIDMethodRow.selectedRow)
+        if let exp = card.expiry {
+            self.expDateRow.date = exp
+        }
         
+        self.remarkRow.text = card.remarks
+        
+        self.cardData["name"] = card.name
+        self.cardData["issuer"] = card.issuer
+        self.cardData["code"] = card.code
+        self.cardData["code_type"] = card.code_type
+        self.cardData["expiry"] = card.expiry
+        self.cardData["image"] = card.image
+        self.cardData["remarks"] = card.remarks
     }
     
-    func setup() {
+    private func setup() {
         
         
         cardData = [String:Any]()
@@ -82,6 +106,7 @@ class CardEditorTableView: UITableView {
                 row.pickerItems = items
             }.onValueChanged{
                 item in
+                print(item.value)
                 self.cardData["code_type"] = item.value
         }
         self.expDateRow = InlineDatePickerRowFormer<FormInlineDatePickerCell>() {
